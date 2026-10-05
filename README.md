@@ -1,6 +1,6 @@
 # Baytrail-firmware
 
-Katalog firmware i materiałów referencyjnych dla Bay Trail oraz pokrewnych platform. Kod portów, konfiguracje urządzeń i testy rozwijamy w sąsiednim `csmwrap-research`. Firmware przechowujemy wraz z SHA256 i pochodzeniem; obecność w katalogu nie oznacza zgodności z danym urządzeniem.
+Katalog firmware i materiałów referencyjnych dla Bay Trail oraz pokrewnych platform, rozwijany w organizacji [Baytrail-TTeam](https://github.com/Baytrail-TTeam). Kod portów, konfiguracje urządzeń i testy znajdują się w [baytrail-device-development](https://github.com/Baytrail-TTeam/baytrail-device-development). Firmware przechowujemy wraz z SHA256 i pochodzeniem; obecność w katalogu nie oznacza zgodności z danym urządzeniem.
 
 | Materiał | Wersja | Platforma | Uwagi |
 |---|---|---|---|
@@ -23,6 +23,8 @@ Katalog firmware i materiałów referencyjnych dla Bay Trail oraz pokrewnych pla
 ## Praca
 
 ```sh
+git clone https://github.com/Baytrail-TTeam/baytrail-firmware.git Baytrail-firmware
+cd Baytrail-firmware
 python3 scripts/catalog.py list
 python3 scripts/catalog.py validate
 ```

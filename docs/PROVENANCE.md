@@ -14,6 +14,6 @@ Oryginalne obrazy ROM65 536B mają poprawne Option ROM checksum0. VBT w FSP3652 
 
 ## Prawa
 
-Repozytorium jest obecnie lokalne. Nie nadano cudzym binariom nowej licencji. Zachowano notice Intela (w tym „For Evaluation Use Only”). Prawo dalszej dystrybucji binariów nie zostało ustalone i jest odnotowane w każdym rekordzie. Przed publikacją trzeba rozstrzygnąć, które można publikować, a które zastąpić fetch/extract recipe z hashami. Kopia istniejącego pliku nie dowodzi prawa redystrybucji.
+Docelowe repozytorium: https://github.com/Baytrail-TTeam/baytrail-firmware . Nie nadano cudzym binariom nowej licencji. Zachowano notice Intela (w tym „For Evaluation Use Only”). Prawo dalszej dystrybucji binariów nie zostało ustalone i jest odnotowane w każdym rekordzie. Publikacja katalogu nie stanowi potwierdzenia licencji ani prawa do użycia lub redystrybucji jego zawartości. Niektóre pozycje mogą wymagać zastąpienia binarium przez fetch/extract recipe z hashami. Kopia istniejącego pliku nie dowodzi prawa redystrybucji.
 
 Własne nowe skrypty i opisy także nie otrzymują domyślnie wybranej za właściciela licencji. Zasady repo nie zastępują licencji upstream i źródeł.
