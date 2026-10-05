@@ -1,0 +1,303 @@
+VBT header:
+	VBT signature:		"$VBT VALLEYVIEW     "
+	VBT version:		0x0064 (1.0)
+	VBT header size:	0x0030 (48)
+	VBT size:		0x0d71 (3441)
+	VBT checksum:		0x00
+	BDB offset:		0x00000030 (48)
+
+BDB header:
+	BDB signature:		"BIOS_DATA_BLOCK "
+	BDB version:		155
+	BDB header size:	0x0016 (22)
+	BDB size:		0x0d41 (3393)
+
+BDB blocks present:
+	  1   2   4   6   7   8  10  12  13  14  15  16  17  18  19  20
+	 27  40  41  42  43  44 254
+
+BDB block 1 (5 bytes) - General features block:
+	Panel fitting: text & graphics (0x3)
+	Flexaim: no
+	Message: yes
+	Clear screen: 0
+	DVO color flip required: no
+	External VBT: no
+	LVDS SSC Enable: no
+	LVDS SSC frequency: 120 MHz (0x0)
+	LFP on override: no
+	Disable SSC on clone: no
+	Underscan support for VGA timings: no
+	Hotplug support in VBIOS: no
+	Disable smooth vision: no
+	Single DVI for CRT/DVI: no
+	Inverted FDI Rx polarity: no
+	Legacy monitor detect: yes
+	Integrated CRT: no
+	Integrated TV: no
+	Integrated EFP: no
+	DP SSC enable: no
+	DP SSC frequency: 120 MHz (0x0)
+	DP SSC dongle supported: no
+
+BDB block 2 (170 bytes) - General definitions block:
+	CRT DDC GMBUS addr: 0x02
+	Use DPMS on AIM devices: yes
+	Skip CRT detect at boot: no
+	Use Non ACPI DPMS CRT power states: no
+	Boot display type: 0x0000
+	Child device size: 33
+	Child device count: 5
+	Child device info:
+		Device handle: 0x0008 (LFP 1 (eDP))
+		Device type: 0x1004 (unknown)
+			Internal connector
+			HDMI output
+			DisplayPort output
+		I2C speed: 100 kHz (0x00)
+		AIM offset: 48464
+		DVO Port: DP-C (0x08)
+		AIM I2C pin: 0x00
+		AIM Slave address: 0x00
+		DDC pin: 0x04
+		EDID buffer ptr: 0x5454
+		DVO config: 0x00
+		Aux channel: AUX-C (0x20)
+		Dongle detect: 0x00
+		Integrated encoder instead of SDVO: yes
+		Hotplug connect status: 0x00
+		SDVO stall signal available: no
+		Pipe capabilities: 0x00
+		DVO wiring: 0x01
+		DVO2 wiring: 0x00
+		Device class extension: 0x00
+		DVO function: 0x00
+	Child device info:
+		Device handle: 0x0001 (CRT)
+		Device type: 0x0001 (CRT)
+			HDMI output
+			Analog output
+		I2C speed: 100 kHz (0x00)
+		AIM offset: 51056
+		DVO Port: CRT (0x06)
+		AIM I2C pin: 0x00
+		AIM Slave address: 0x00
+		DDC pin: 0x02
+		EDID buffer ptr: 0x52d4
+		DVO config: 0x00
+		Aux channel: none (0x00)
+		Dongle detect: 0x00
+		Integrated encoder instead of SDVO: yes
+		Hotplug connect status: 0x00
+		SDVO stall signal available: no
+		Pipe capabilities: 0x00
+		DVO wiring: 0x00
+		DVO2 wiring: 0x00
+		Device class extension: 0x00
+		DVO function: 0x00
+	Child device info:
+		Device handle: 0x0004 (EFP 1 (HDMI/DVI/DP))
+		Device type: 0x0814 (unknown)
+			TMDS/DVI signaling
+			DisplayPort output
+		I2C speed: 100 kHz (0x00)
+		AIM offset: 48464
+		DVO Port: HDMI-B (0x01)
+		AIM I2C pin: 0x00
+		AIM Slave address: 0x00
+		DDC pin: 0x05
+		EDID buffer ptr: 0x5354
+		DVO config: 0x00
+		Aux channel: AUX-B (0x10)
+		Dongle detect: 0x00
+		Integrated encoder instead of SDVO: yes
+		Hotplug connect status: 0x00
+		SDVO stall signal available: no
+		Pipe capabilities: 0x00
+		DVO wiring: 0x01
+		DVO2 wiring: 0x00
+		Device class extension: 0x00
+		DVO function: 0x00
+	Child device info:
+		Device handle: 0x0020 (EFP 3 (HDMI/DVI/DP))
+		Device type: 0x0004 (unknown)
+			HDMI output
+			DisplayPort output
+		I2C speed: 100 kHz (0x00)
+		AIM offset: 48464
+		DVO Port: HDMI-C (0x02)
+		AIM I2C pin: 0x00
+		AIM Slave address: 0x00
+		DDC pin: 0x04
+		EDID buffer ptr: 0x53d4
+		DVO config: 0x00
+		Aux channel: AUX-C (0x20)
+		Dongle detect: 0x00
+		Integrated encoder instead of SDVO: yes
+		Hotplug connect status: 0x00
+		SDVO stall signal available: no
+		Pipe capabilities: 0x00
+		DVO wiring: 0x02
+		DVO2 wiring: 0x00
+		Device class extension: 0x00
+		DVO function: 0x00
+
+BDB block 4 (28 bytes) - Unknown, no decoding available:
+
+BDB block 6 (285 bytes) - Unknown, no decoding available:
+
+BDB block 7 (7 bytes) - Unknown, no decoding available:
+
+BDB block 8 (61 bytes) - Unknown, no decoding available:
+
+BDB block 10 (203 bytes) - Unknown, no decoding available:
+
+BDB block 12 (17 bytes) - Driver feature data block:
+	Use 00000110h ID for Primary LFP: no
+	Enable Sprite in Clone Mode: yes
+	Driver INT 15h hook: no
+	Dual View Zoom: no
+	Hot Plug DVO: yes
+	Allow display switching when in Full Screen DOS: no
+	Allow display switching when DVD active: yes
+	Boot Device Algorithm: os default
+	Boot Mode X: 1024
+	Boot Mode Y: 768
+	Boot Mode Bpp: 8
+	Boot Mode Refresh: 60
+	Enable LFP as primary: no
+	Selective Mode Pruning: no
+	Dual-Frequency Graphics Technology: no
+	Default Render Clock Frequency: high
+	NT 4.0 Dual Display Clone Support: no
+	Default Power Scheme user interface: CUI
+	Sprite Display Assignment when Overlay is Active in Clone Mode: secondary
+	Display Maintain Aspect Scaling via CUI: yes
+	Preserve Aspect Ratio: no
+	Enable SDVO device power down: no
+	CRT hotplug: no
+	LVDS config: No LVDS (0x0)
+	TV hotplug: no
+	Display subsystem enable: no
+	Embedded platform: no
+	Define Display statically: no
+	Legacy CRT max X: 0
+	Legacy CRT max Y: 0
+	Legacy CRT max refresh: 85
+	Internal source termination for HDMI: no
+	CEA 861-D HDMI support: no
+	Self refresh enable: no
+	Custom VBT number: 0x0
+	PC Features field validity: no
+	Dynamic Media Refresh Rate Switching (DMRRS): no
+	Intermediate Pixel Storage (IPS): no
+	Panel Self Refresh (PSR): no
+	Turbo Boost Technology: no
+	Graphics Power Management (GPMT): no
+	Graphics Render Standby (RS): no
+	Dynamic Refresh Rate Switching (DRRS): no
+	Automatic Display Brightness (ADB): no
+	DxgkDDI Backlight Control (DxgkDdiBLC): no
+	Display Power Saving Technology (DPST): no
+	Smart 2D Display Technology (S2DDT): no
+	Rapid Memory Power Management (RMPM): no
+
+BDB block 13 (3 bytes) - Unknown, no decoding available:
+
+BDB block 14 (5 bytes) - Unknown, no decoding available:
+
+BDB block 15 (92 bytes) - Unknown, no decoding available:
+
+BDB block 16 (132 bytes) - Unknown, no decoding available:
+
+BDB block 17 (8 bytes) - Unknown, no decoding available:
+
+BDB block 18 (12 bytes) - Unknown, no decoding available:
+
+BDB block 19 (32 bytes) - Unknown, no decoding available:
+
+BDB block 20 (158 bytes) - Unknown, no decoding available:
+
+BDB block 27 (200 bytes) - eDP block:
+	Panel 2 *
+		Power Sequence: T3 2000 T7 10 T9 2000 T10 500 T12 5000
+		Panel color depth: 18 bpp
+		eDP sDRRS MSA Delay: Lane 1
+		Fast link params:
+			rate: 1.62Gbps
+			lanes: X1			pre-emphasis: 0dB (0x0)
+			vswing: 0.4V (0x0)
+
+BDB block 40 (24 bytes) - LVDS options block:
+	Panel type: 2
+	LVDS EDID available: yes
+	Pixel dither: yes
+	PFIT auto ratio: yes
+	PFIT enhanced graphics mode: no
+	PFIT enhanced text mode: no
+	PFIT mode: 3
+	Panel 2 *
+		Channel type: automatic (0x0)
+		SSC: no
+		SSC frequency: 120 MHz (0x0)
+		Disable SSC in dual display twin: no
+		Panel color depth: 18 (0x0)
+		DPS type: static DRRS (0x0)
+		Backlight type: default (0x0)
+
+BDB block 41 (145 bytes) - LVDS timing pointer data:
+	Number of entries: 3
+	Panel 2 *
+		FP timing offset: 148
+		FP timing table size: 40
+		DVO timing offset: 194
+		DVO timing table size: 18
+		Panel PnP ID offset: 212
+		Panel PnP ID table size: 10
+
+BDB block 42 (1184 bytes) - LVDS panel data block:
+	Panel 2 *
+		1024x768 clock 65000000
+		info:
+		  LVDS: 0x42000300
+		  PP_ON_DELAYS: 0x025807d0
+		  PP_OFF_DELAYS: 0x01f407d0
+		  PP_DIVISOR: 0x00270f04
+		  PFIT: 0x20000000
+		timings: 1024 1048 1184 1344 768 771 777 806 65000.00 (good)
+		PnP ID:
+		  Mfg name: MS_ (0x7f36)
+		  Product code: 3
+		  Serial: 3
+		  Mfg week: 0
+		  Mfg year: 2002
+
+BDB block 43 (97 bytes) - Backlight info block:
+	Panel 2 *
+		Inverter type: 2
+		Active low: 0
+		PWM freq: 200
+		Minimum brightness: 0
+		Level: 0
+		Control type: 0
+		Controller: 0
+
+BDB block 44 (21 bytes) - LFP power conservation features block:
+	ALS enable: yes
+	Display LACE support: no
+	Default Display LACE enabled status: no
+	Power conservation preference level: 4
+	ALS backlight adjust: 70
+	ALS Lux: 0
+	ALS backlight adjust: 73
+	ALS Lux: 10
+	ALS backlight adjust: 85
+	ALS Lux: 80
+	ALS backlight adjust: 100
+	ALS Lux: 300
+	ALS backlight adjust: 150
+	ALS Lux: 1000
+	Display LACE aggressiveness profile: 0
+
+BDB block 254 (237 bytes) - Unknown, no decoding available:
+

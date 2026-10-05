@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "id": "vendor/model",
+  "platform": null,
+  "board_revision": null,
+  "role": "reference",
+  "notes": "Identify the exact board; donor assets do not establish target compatibility."
+}

@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "id": "s165-hpc7scp4-vbios-all-panels",
+  "kind": "vbios",
+  "platform": "intel/bay-trail",
+  "device": "ilife/s165",
+  "status": "derived",
+  "version": "1024 PC 14.34  02/05/2015 03:30:25",
+  "description": "Historyczny eksperyment transplantacji VBT dla S165. Nie jest oryginalnym firmware HPC ani portem Chuwi. Brak deklaracji poprawnego działania.",
+  "path": "experiments/ilife/s165/hpc7scp4-transplant/all-panels/VBIOS-HPC7SCP4-S165-all-panels.rom",
+  "size": 65536,
+  "sha256": "548c688257c4b23ba89fe7e6e1aa14d4043242cffabb46a4ca29bdc55840fa0d",
+  "provenance": [
+    {
+      "local_path": "Devices/HPC7SCP4/transplant/VBIOS-HPC7SCP4-S165-all-panels.rom",
+      "source_url": null,
+      "method": "byte-for-byte copy of pre-existing research artifact; not executed"
+    }
+  ],
+  "license": {
+    "owner": "Intel",
+    "redistribution": "not established; original notices apply"
+  },
+  "compatibility": {
+    "verified_devices": [],
+    "notes": "Brak potwierdzonej zgodności z Chuwi Vi10; PCI ID nie dowodzi zgodności panelu."
+  },
+  "structure": {
+    "size": 65536,
+    "sha256": "548c688257c4b23ba89fe7e6e1aa14d4043242cffabb46a4ca29bdc55840fa0d",
+    "errors": [],
+    "rom": {
+      "header_size": 65536,
+      "pcir_offset": 64,
+      "vendor": "8086",
+      "device": "0f31",
+      "pcir_image_size": 65536,
+      "code_type": 0,
+      "indicator": 128,
+      "checksum_mod256": 0
+    },
+    "vbts": [
+      {
+        "signature": "$VBT VALLEYVIEW     ",
+        "offset": 2800,
+        "version": 100,
+        "header_size": 48,
+        "size": 3689,
+        "checksum_mod256": 0,
+        "bdb_offset": 48,
+        "bdb_version": 189,
+        "bdb_header_size": 22,
+        "bdb_size": 3641,
+        "blocks": [
+          {
+            "id": 254,
+            "offset": 70,
+            "size": 234
+          },
+          {
+            "id": 1,
+            "offset": 307,
+            "size": 5
+          },
+          {
+            "id": 253,
+            "offset": 315,
+            "size": 50
+          },
+          {
+            "id": 2,
+            "offset": 368,
+            "size": 137
+          },
+          {
+            "id": 3,
+            "offset": 508,
+            "size": 1
+          },
+          {
+            "id": 4,
+            "offset": 512,
+            "size": 28
+          },
+          {
+            "id": 252,
+            "offset": 543,
+            "size": 120
+          },
+          {
+            "id": 6,
+            "offset": 666,
+            "size": 117
+          },
+          {
+            "id": 7,
+            "offset": 786,
+            "size": 7
+          },
+          {
+            "id": 8,
+            "offset": 796,
+            "size": 61
+          },
+          {
+            "id": 9,
+            "offset": 860,
+            "size": 96
+          },
+          {
+            "id": 10,
+            "offset": 959,
+            "size": 203
+          },
+          {
+            "id": 12,
+            "offset": 1165,
+            "size": 19
+          },
+          {
+            "id": 13,
+            "offset": 1187,
+            "size": 3
+          },
+          {
+            "id": 16,
+            "offset": 1193,
+            "size": 132
+          },
+          {
+            "id": 17,
+            "offset": 1328,
+            "size": 8
+          },
+          {
+            "id": 18,
+            "offset": 1339,
+            "size": 12
+          },
+          {
+            "id": 19,
+            "offset": 1354,
+            "size": 32
+          },
+          {
+            "id": 20,
+            "offset": 1389,
+            "size": 158
+          },
+          {
+            "id": 26,
+            "offset": 1550,
+            "size": 2
+          },
+          {
+            "id": 27,
+            "offset": 1555,
+            "size": 280
+          },
+          {
+            "id": 28,
+            "offset": 1838,
+            "size": 54
+          },
+          {
+            "id": 40,
+            "offset": 1895,
+            "size": 24
+          },
+          {
+            "id": 41,
+            "offset": 1922,
+            "size": 148
+          },
+          {
+            "id": 42,
+            "offset": 2073,
+            "size": 1282
+          },
+          {
+            "id": 43,
+            "offset": 3358,
+            "size": 113
+          },
+          {
+            "id": 44,
+            "offset": 3474,
+            "size": 21
+          },
+          {
+            "id": 46,
+            "offset": 3498,
+            "size": 176
+          },
+          {
+            "id": 51,
+            "offset": 3677,
+            "size": 9
+          }
+        ]
+      }
+    ]
+  },
+  "sidecars": [
+    {
+      "path": "experiments/ilife/s165/hpc7scp4-transplant/all-panels/all-panels-changes.json",
+      "size": 31964,
+      "sha256": "1d8de0e23aec10aadc077afa4904526ab6453bee3a43c37269dbfe83d0204ec2"
+    },
+    {
+      "path": "experiments/ilife/s165/hpc7scp4-transplant/all-panels/all-panels-revert.json",
+      "size": 34878,
+      "sha256": "d70c1d66604c34f790bb1a49d7b6ea5441574e2e4befb76df134f194806817e7"
+    },
+    {
+      "path": "experiments/ilife/s165/hpc7scp4-transplant/all-panels/all-panels-decoded.txt",
+      "size": 33072,
+      "sha256": "b405b1e77a31e48218d75b7fce1f0689693a6cca252d6a2783cf137538329cb2"
+    },
+    {
+      "path": "experiments/ilife/s165/hpc7scp4-transplant/all-panels/all-panels-byte-diff.txt",
+      "size": 11824,
+      "sha256": "18e353b1c1c3f506ac78d9ca3e92911a5b4072ad1020bba368698299d467c55e"
+    },
+    {
+      "path": "experiments/ilife/s165/hpc7scp4-transplant/all-panels/all-panels-validation.json",
+      "size": 3282,
+      "sha256": "693351598eed6af86ba3d523cc86ea63f3b635661c5dbd4bc8d7244e84d8d756"
+    }
+  ],
+  "parent_sha256": "eb5f6f90fb83598b5309a67425997e958ea655b7162b2730d60a99ac0fcc2a08"
+}

@@ -1,0 +1,755 @@
+{
+  "source": "/home/semi/csmwrap-research/Devices/HPC7SCP4/HPC7SCP4.ROM",
+  "source_size": 8388608,
+  "source_sha256": "ac5ae6790ca005210f82f84285c844f358a8732b721ef74074878ad4018de9c1",
+  "files_scanned": 2995,
+  "roms": [
+    {
+      "file": "/home/semi/csmwrap-research/Devices/HPC7SCP4/extracted/OptionROM-10ec-8168-1.rom",
+      "size": 55808,
+      "sha256": "5ad2e27a645250e904b40d9a8bac0cbaf0f7fcf5bd5e8bfdda56666803769375",
+      "errors": [
+        "ROM length bounds",
+        "No valid VBT"
+      ],
+      "vbts": [],
+      "strings": [
+        "Copyright (C) 1997-2000  Intel Corporation"
+      ],
+      "sources": [
+        {
+          "file": "/home/semi/csmwrap-research/Devices/HPC7SCP4/HPC7SCP4.ROM.dump/2 BIOS region/3 5C60F367-A505-419A-859E-2A4FF6CA6FE5/193 365C62BA-05EF-4B2E-A7F7-92C1781AF4F9/0 Compressed section/unc_data.bin",
+          "offset": 92701
+        },
+        {
+          "file": "/home/semi/csmwrap-research/Devices/HPC7SCP4/HPC7SCP4.ROM.dump/2 BIOS region/3 5C60F367-A505-419A-859E-2A4FF6CA6FE5/193 365C62BA-05EF-4B2E-A7F7-92C1781AF4F9/0 Compressed section/0 Raw section/body.bin",
+          "offset": 92697
+        }
+      ]
+    },
+    {
+      "file": "/home/semi/csmwrap-research/Devices/HPC7SCP4/extracted/OptionROM-8086-0f31-2.rom",
+      "size": 65536,
+      "sha256": "eb5f6f90fb83598b5309a67425997e958ea655b7162b2730d60a99ac0fcc2a08",
+      "errors": [],
+      "rom": {
+        "header_size": 65536,
+        "pcir_offset": 64,
+        "vendor": "8086",
+        "device": "0f31",
+        "pcir_image_size": 65536,
+        "code_type": 0,
+        "indicator": 128,
+        "checksum_mod256": 0
+      },
+      "vbts": [
+        {
+          "signature": "$VBT VALLEYVIEW     ",
+          "offset": 2800,
+          "version": 100,
+          "header_size": 48,
+          "size": 3689,
+          "checksum_mod256": 44,
+          "bdb_offset": 48,
+          "bdb_version": 189,
+          "bdb_header_size": 22,
+          "bdb_size": 3641,
+          "blocks": [
+            {
+              "id": 254,
+              "offset": 70,
+              "size": 234
+            },
+            {
+              "id": 1,
+              "offset": 307,
+              "size": 5
+            },
+            {
+              "id": 253,
+              "offset": 315,
+              "size": 50
+            },
+            {
+              "id": 2,
+              "offset": 368,
+              "size": 137
+            },
+            {
+              "id": 3,
+              "offset": 508,
+              "size": 1
+            },
+            {
+              "id": 4,
+              "offset": 512,
+              "size": 28
+            },
+            {
+              "id": 252,
+              "offset": 543,
+              "size": 120
+            },
+            {
+              "id": 6,
+              "offset": 666,
+              "size": 117
+            },
+            {
+              "id": 7,
+              "offset": 786,
+              "size": 7
+            },
+            {
+              "id": 8,
+              "offset": 796,
+              "size": 61
+            },
+            {
+              "id": 9,
+              "offset": 860,
+              "size": 96
+            },
+            {
+              "id": 10,
+              "offset": 959,
+              "size": 203
+            },
+            {
+              "id": 12,
+              "offset": 1165,
+              "size": 19
+            },
+            {
+              "id": 13,
+              "offset": 1187,
+              "size": 3
+            },
+            {
+              "id": 16,
+              "offset": 1193,
+              "size": 132
+            },
+            {
+              "id": 17,
+              "offset": 1328,
+              "size": 8
+            },
+            {
+              "id": 18,
+              "offset": 1339,
+              "size": 12
+            },
+            {
+              "id": 19,
+              "offset": 1354,
+              "size": 32
+            },
+            {
+              "id": 20,
+              "offset": 1389,
+              "size": 158
+            },
+            {
+              "id": 26,
+              "offset": 1550,
+              "size": 2
+            },
+            {
+              "id": 27,
+              "offset": 1555,
+              "size": 280
+            },
+            {
+              "id": 28,
+              "offset": 1838,
+              "size": 54
+            },
+            {
+              "id": 40,
+              "offset": 1895,
+              "size": 24
+            },
+            {
+              "id": 41,
+              "offset": 1922,
+              "size": 148
+            },
+            {
+              "id": 42,
+              "offset": 2073,
+              "size": 1282
+            },
+            {
+              "id": 43,
+              "offset": 3358,
+              "size": 113
+            },
+            {
+              "id": 44,
+              "offset": 3474,
+              "size": 21
+            },
+            {
+              "id": 46,
+              "offset": 3498,
+              "size": 176
+            },
+            {
+              "id": 51,
+              "offset": 3677,
+              "size": 9
+            }
+          ]
+        }
+      ],
+      "strings": [
+        "For Evaluation Use Only.",
+        "1024Intel(R) VLV Mobile/Desktop PCI Accelerated SVGA BIOS",
+        "Build Number: 1024 PC 14.34  02/05/2015 03:30:25",
+        "Copyright (C) 2000-2011 Intel Corp. All Rights Reserved.",
+        "{Intel(R) VLV Mobile/Desktop Graphics Chipset Accelerated VGA BIOS",
+        "Intel(R) VLV Mobile/Desktop Graphics Controller"
+      ],
+      "sources": [
+        {
+          "file": "/home/semi/csmwrap-research/Devices/HPC7SCP4/HPC7SCP4.ROM.dump/2 BIOS region/3 5C60F367-A505-419A-859E-2A4FF6CA6FE5/196 A0327FE0-1FDA-4E5B-905D-B510C45A61D0/0 Compressed section/unc_data.bin",
+          "offset": 72360
+        },
+        {
+          "file": "/home/semi/csmwrap-research/Devices/HPC7SCP4/HPC7SCP4.ROM.dump/2 BIOS region/3 5C60F367-A505-419A-859E-2A4FF6CA6FE5/196 A0327FE0-1FDA-4E5B-905D-B510C45A61D0/0 Compressed section/1 06767E64-19BF-459F-8564-5F25D4896FB0/body.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ],
+  "vbts": [
+    {
+      "signature": "$VBT VALLEYVIEW    \u0000",
+      "offset": 5528140,
+      "version": 100,
+      "header_size": 48,
+      "size": 4695,
+      "checksum_mod256": 0,
+      "bdb_offset": 48,
+      "bdb_version": 188,
+      "bdb_header_size": 22,
+      "bdb_size": 4647,
+      "blocks": [
+        {
+          "id": 1,
+          "offset": 70,
+          "size": 5
+        },
+        {
+          "id": 253,
+          "offset": 78,
+          "size": 50
+        },
+        {
+          "id": 2,
+          "offset": 131,
+          "size": 137
+        },
+        {
+          "id": 3,
+          "offset": 271,
+          "size": 1
+        },
+        {
+          "id": 9,
+          "offset": 275,
+          "size": 96
+        },
+        {
+          "id": 10,
+          "offset": 374,
+          "size": 203
+        },
+        {
+          "id": 12,
+          "offset": 580,
+          "size": 19
+        },
+        {
+          "id": 13,
+          "offset": 602,
+          "size": 3
+        },
+        {
+          "id": 16,
+          "offset": 608,
+          "size": 132
+        },
+        {
+          "id": 17,
+          "offset": 743,
+          "size": 8
+        },
+        {
+          "id": 18,
+          "offset": 754,
+          "size": 12
+        },
+        {
+          "id": 19,
+          "offset": 769,
+          "size": 32
+        },
+        {
+          "id": 20,
+          "offset": 804,
+          "size": 158
+        },
+        {
+          "id": 26,
+          "offset": 965,
+          "size": 2
+        },
+        {
+          "id": 27,
+          "offset": 970,
+          "size": 280
+        },
+        {
+          "id": 28,
+          "offset": 1253,
+          "size": 54
+        },
+        {
+          "id": 40,
+          "offset": 1310,
+          "size": 24
+        },
+        {
+          "id": 41,
+          "offset": 1337,
+          "size": 148
+        },
+        {
+          "id": 42,
+          "offset": 1488,
+          "size": 1282
+        },
+        {
+          "id": 43,
+          "offset": 2773,
+          "size": 113
+        },
+        {
+          "id": 44,
+          "offset": 2889,
+          "size": 21
+        },
+        {
+          "id": 46,
+          "offset": 2913,
+          "size": 176
+        },
+        {
+          "id": 51,
+          "offset": 3092,
+          "size": 9
+        },
+        {
+          "id": 52,
+          "offset": 3104,
+          "size": 816
+        },
+        {
+          "id": 54,
+          "offset": 3923,
+          "size": 769
+        }
+      ],
+      "file": "VBT-1.bin",
+      "sha256": "d4bb8ad62775c3e034b7ad972d5aefa18b15ceb9a50a5303d6f76dc1984f2857",
+      "sources": [
+        {
+          "file": "/home/semi/csmwrap-research/Devices/HPC7SCP4/HPC7SCP4.ROM",
+          "offset": 5528140
+        },
+        {
+          "file": "/home/semi/csmwrap-research/Devices/HPC7SCP4/HPC7SCP4.ROM.dump/body.bin",
+          "offset": 5528140
+        },
+        {
+          "file": "/home/semi/csmwrap-research/Devices/HPC7SCP4/HPC7SCP4.ROM.dump/2 BIOS region/body.bin",
+          "offset": 2382412
+        },
+        {
+          "file": "/home/semi/csmwrap-research/Devices/HPC7SCP4/HPC7SCP4.ROM.dump/2 BIOS region/3 5C60F367-A505-419A-859E-2A4FF6CA6FE5/body.bin",
+          "offset": 1726932
+        },
+        {
+          "file": "/home/semi/csmwrap-research/Devices/HPC7SCP4/HPC7SCP4.ROM.dump/2 BIOS region/3 5C60F367-A505-419A-859E-2A4FF6CA6FE5/189 IntelGopVbt/body.bin",
+          "offset": 4
+        },
+        {
+          "file": "/home/semi/csmwrap-research/Devices/HPC7SCP4/HPC7SCP4.ROM.dump/2 BIOS region/3 5C60F367-A505-419A-859E-2A4FF6CA6FE5/189 IntelGopVbt/0 Raw section/body.bin",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "signature": "$VBT VALLEYVIEW    \u0000",
+      "offset": 5533316,
+      "version": 100,
+      "header_size": 48,
+      "size": 4695,
+      "checksum_mod256": 0,
+      "bdb_offset": 48,
+      "bdb_version": 188,
+      "bdb_header_size": 22,
+      "bdb_size": 4647,
+      "blocks": [
+        {
+          "id": 1,
+          "offset": 70,
+          "size": 5
+        },
+        {
+          "id": 253,
+          "offset": 78,
+          "size": 50
+        },
+        {
+          "id": 2,
+          "offset": 131,
+          "size": 137
+        },
+        {
+          "id": 3,
+          "offset": 271,
+          "size": 1
+        },
+        {
+          "id": 9,
+          "offset": 275,
+          "size": 96
+        },
+        {
+          "id": 10,
+          "offset": 374,
+          "size": 203
+        },
+        {
+          "id": 12,
+          "offset": 580,
+          "size": 19
+        },
+        {
+          "id": 13,
+          "offset": 602,
+          "size": 3
+        },
+        {
+          "id": 16,
+          "offset": 608,
+          "size": 132
+        },
+        {
+          "id": 17,
+          "offset": 743,
+          "size": 8
+        },
+        {
+          "id": 18,
+          "offset": 754,
+          "size": 12
+        },
+        {
+          "id": 19,
+          "offset": 769,
+          "size": 32
+        },
+        {
+          "id": 20,
+          "offset": 804,
+          "size": 158
+        },
+        {
+          "id": 26,
+          "offset": 965,
+          "size": 2
+        },
+        {
+          "id": 27,
+          "offset": 970,
+          "size": 280
+        },
+        {
+          "id": 28,
+          "offset": 1253,
+          "size": 54
+        },
+        {
+          "id": 40,
+          "offset": 1310,
+          "size": 24
+        },
+        {
+          "id": 41,
+          "offset": 1337,
+          "size": 148
+        },
+        {
+          "id": 42,
+          "offset": 1488,
+          "size": 1282
+        },
+        {
+          "id": 43,
+          "offset": 2773,
+          "size": 113
+        },
+        {
+          "id": 44,
+          "offset": 2889,
+          "size": 21
+        },
+        {
+          "id": 46,
+          "offset": 2913,
+          "size": 176
+        },
+        {
+          "id": 51,
+          "offset": 3092,
+          "size": 9
+        },
+        {
+          "id": 52,
+          "offset": 3104,
+          "size": 816
+        },
+        {
+          "id": 54,
+          "offset": 3923,
+          "size": 769
+        }
+      ],
+      "file": "VBT-2.bin",
+      "sha256": "bc3fd93ca46432af5feecde70103111cedfac91b117a3d27c171a1ea34ac9733",
+      "sources": [
+        {
+          "file": "/home/semi/csmwrap-research/Devices/HPC7SCP4/HPC7SCP4.ROM",
+          "offset": 5533316
+        },
+        {
+          "file": "/home/semi/csmwrap-research/Devices/HPC7SCP4/HPC7SCP4.ROM.dump/body.bin",
+          "offset": 5533316
+        },
+        {
+          "file": "/home/semi/csmwrap-research/Devices/HPC7SCP4/HPC7SCP4.ROM.dump/2 BIOS region/body.bin",
+          "offset": 2387588
+        },
+        {
+          "file": "/home/semi/csmwrap-research/Devices/HPC7SCP4/HPC7SCP4.ROM.dump/2 BIOS region/3 5C60F367-A505-419A-859E-2A4FF6CA6FE5/body.bin",
+          "offset": 1732108
+        },
+        {
+          "file": "/home/semi/csmwrap-research/Devices/HPC7SCP4/HPC7SCP4.ROM.dump/2 BIOS region/3 5C60F367-A505-419A-859E-2A4FF6CA6FE5/190 IntelGopVbt1/body.bin",
+          "offset": 4
+        },
+        {
+          "file": "/home/semi/csmwrap-research/Devices/HPC7SCP4/HPC7SCP4.ROM.dump/2 BIOS region/3 5C60F367-A505-419A-859E-2A4FF6CA6FE5/190 IntelGopVbt1/0 Raw section/body.bin",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "signature": "$VBT VALLEYVIEW     ",
+      "offset": 75160,
+      "version": 100,
+      "header_size": 48,
+      "size": 3689,
+      "checksum_mod256": 44,
+      "bdb_offset": 48,
+      "bdb_version": 189,
+      "bdb_header_size": 22,
+      "bdb_size": 3641,
+      "blocks": [
+        {
+          "id": 254,
+          "offset": 70,
+          "size": 234
+        },
+        {
+          "id": 1,
+          "offset": 307,
+          "size": 5
+        },
+        {
+          "id": 253,
+          "offset": 315,
+          "size": 50
+        },
+        {
+          "id": 2,
+          "offset": 368,
+          "size": 137
+        },
+        {
+          "id": 3,
+          "offset": 508,
+          "size": 1
+        },
+        {
+          "id": 4,
+          "offset": 512,
+          "size": 28
+        },
+        {
+          "id": 252,
+          "offset": 543,
+          "size": 120
+        },
+        {
+          "id": 6,
+          "offset": 666,
+          "size": 117
+        },
+        {
+          "id": 7,
+          "offset": 786,
+          "size": 7
+        },
+        {
+          "id": 8,
+          "offset": 796,
+          "size": 61
+        },
+        {
+          "id": 9,
+          "offset": 860,
+          "size": 96
+        },
+        {
+          "id": 10,
+          "offset": 959,
+          "size": 203
+        },
+        {
+          "id": 12,
+          "offset": 1165,
+          "size": 19
+        },
+        {
+          "id": 13,
+          "offset": 1187,
+          "size": 3
+        },
+        {
+          "id": 16,
+          "offset": 1193,
+          "size": 132
+        },
+        {
+          "id": 17,
+          "offset": 1328,
+          "size": 8
+        },
+        {
+          "id": 18,
+          "offset": 1339,
+          "size": 12
+        },
+        {
+          "id": 19,
+          "offset": 1354,
+          "size": 32
+        },
+        {
+          "id": 20,
+          "offset": 1389,
+          "size": 158
+        },
+        {
+          "id": 26,
+          "offset": 1550,
+          "size": 2
+        },
+        {
+          "id": 27,
+          "offset": 1555,
+          "size": 280
+        },
+        {
+          "id": 28,
+          "offset": 1838,
+          "size": 54
+        },
+        {
+          "id": 40,
+          "offset": 1895,
+          "size": 24
+        },
+        {
+          "id": 41,
+          "offset": 1922,
+          "size": 148
+        },
+        {
+          "id": 42,
+          "offset": 2073,
+          "size": 1282
+        },
+        {
+          "id": 43,
+          "offset": 3358,
+          "size": 113
+        },
+        {
+          "id": 44,
+          "offset": 3474,
+          "size": 21
+        },
+        {
+          "id": 46,
+          "offset": 3498,
+          "size": 176
+        },
+        {
+          "id": 51,
+          "offset": 3677,
+          "size": 9
+        }
+      ],
+      "file": "VBT-3.bin",
+      "sha256": "9259372a2582e596c25016417ca2175024a48402a8e1afc404ab86f9b9712cae",
+      "sources": [
+        {
+          "file": "/home/semi/csmwrap-research/Devices/HPC7SCP4/HPC7SCP4.ROM.dump/2 BIOS region/3 5C60F367-A505-419A-859E-2A4FF6CA6FE5/196 A0327FE0-1FDA-4E5B-905D-B510C45A61D0/0 Compressed section/unc_data.bin",
+          "offset": 75160
+        },
+        {
+          "file": "/home/semi/csmwrap-research/Devices/HPC7SCP4/HPC7SCP4.ROM.dump/2 BIOS region/3 5C60F367-A505-419A-859E-2A4FF6CA6FE5/196 A0327FE0-1FDA-4E5B-905D-B510C45A61D0/0 Compressed section/1 06767E64-19BF-459F-8564-5F25D4896FB0/body.bin",
+          "offset": 2800
+        }
+      ]
+    }
+  ],
+  "invalid_vbt_headers": [
+    {
+      "file": "/home/semi/csmwrap-research/Devices/HPC7SCP4/HPC7SCP4.ROM.dump/2 BIOS region/3 5C60F367-A505-419A-859E-2A4FF6CA6FE5/57 VlvInitDxe/1 Compressed section/unc_data.bin",
+      "offset": 9206,
+      "error": "VBT size/header bounds"
+    },
+    {
+      "file": "/home/semi/csmwrap-research/Devices/HPC7SCP4/HPC7SCP4.ROM.dump/2 BIOS region/3 5C60F367-A505-419A-859E-2A4FF6CA6FE5/57 VlvInitDxe/1 Compressed section/unc_data.bin",
+      "offset": 10761,
+      "error": "VBT size/header bounds"
+    },
+    {
+      "file": "/home/semi/csmwrap-research/Devices/HPC7SCP4/HPC7SCP4.ROM.dump/2 BIOS region/3 5C60F367-A505-419A-859E-2A4FF6CA6FE5/57 VlvInitDxe/1 Compressed section/0 PE32 image section/body.bin",
+      "offset": 9202,
+      "error": "VBT size/header bounds"
+    },
+    {
+      "file": "/home/semi/csmwrap-research/Devices/HPC7SCP4/HPC7SCP4.ROM.dump/2 BIOS region/3 5C60F367-A505-419A-859E-2A4FF6CA6FE5/57 VlvInitDxe/1 Compressed section/0 PE32 image section/body.bin",
+      "offset": 10757,
+      "error": "VBT size/header bounds"
+    }
+  ]
+}

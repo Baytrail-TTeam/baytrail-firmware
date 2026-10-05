@@ -1,0 +1,228 @@
+{
+  "source": "/home/semi/csmwrap-research/Devices/PIPO_X9S/unpacked/I21TL_dual_PIPO_ltl089cl02_v009_160816.bin",
+  "source_size": 8388608,
+  "source_sha256": "39db89226aa682ffc0ceb814d455bba48fe32e40bea287acf31cd04e79150337",
+  "files_scanned": 3108,
+  "roms": [],
+  "vbts": [
+    {
+      "signature": "$VBT CHERRYVIEW     ",
+      "offset": 6387452,
+      "version": 100,
+      "header_size": 48,
+      "size": 6112,
+      "checksum_mod256": 0,
+      "bdb_offset": 48,
+      "bdb_version": 195,
+      "bdb_header_size": 22,
+      "bdb_size": 6064,
+      "blocks": [
+        {
+          "id": 254,
+          "offset": 70,
+          "size": 234
+        },
+        {
+          "id": 1,
+          "offset": 307,
+          "size": 5
+        },
+        {
+          "id": 253,
+          "offset": 315,
+          "size": 50
+        },
+        {
+          "id": 2,
+          "offset": 368,
+          "size": 153
+        },
+        {
+          "id": 3,
+          "offset": 524,
+          "size": 1
+        },
+        {
+          "id": 4,
+          "offset": 528,
+          "size": 28
+        },
+        {
+          "id": 252,
+          "offset": 559,
+          "size": 120
+        },
+        {
+          "id": 6,
+          "offset": 682,
+          "size": 117
+        },
+        {
+          "id": 7,
+          "offset": 802,
+          "size": 7
+        },
+        {
+          "id": 8,
+          "offset": 812,
+          "size": 61
+        },
+        {
+          "id": 9,
+          "offset": 876,
+          "size": 96
+        },
+        {
+          "id": 10,
+          "offset": 975,
+          "size": 203
+        },
+        {
+          "id": 12,
+          "offset": 1181,
+          "size": 19
+        },
+        {
+          "id": 13,
+          "offset": 1203,
+          "size": 3
+        },
+        {
+          "id": 16,
+          "offset": 1209,
+          "size": 132
+        },
+        {
+          "id": 17,
+          "offset": 1344,
+          "size": 8
+        },
+        {
+          "id": 18,
+          "offset": 1355,
+          "size": 12
+        },
+        {
+          "id": 19,
+          "offset": 1370,
+          "size": 32
+        },
+        {
+          "id": 20,
+          "offset": 1405,
+          "size": 158
+        },
+        {
+          "id": 26,
+          "offset": 1566,
+          "size": 2
+        },
+        {
+          "id": 27,
+          "offset": 1571,
+          "size": 280
+        },
+        {
+          "id": 28,
+          "offset": 1854,
+          "size": 72
+        },
+        {
+          "id": 40,
+          "offset": 1929,
+          "size": 24
+        },
+        {
+          "id": 41,
+          "offset": 1956,
+          "size": 148
+        },
+        {
+          "id": 42,
+          "offset": 2107,
+          "size": 1282
+        },
+        {
+          "id": 43,
+          "offset": 3392,
+          "size": 129
+        },
+        {
+          "id": 44,
+          "offset": 3524,
+          "size": 21
+        },
+        {
+          "id": 46,
+          "offset": 3548,
+          "size": 176
+        },
+        {
+          "id": 51,
+          "offset": 3727,
+          "size": 9
+        },
+        {
+          "id": 52,
+          "offset": 3739,
+          "size": 822
+        },
+        {
+          "id": 53,
+          "offset": 4564,
+          "size": 1545
+        }
+      ],
+      "file": "VBT-1.bin",
+      "sha256": "0297f68b4957710846f3f55ea3dc0ec2e6568ee9e724cc5612719b890671e58f",
+      "sources": [
+        {
+          "file": "/home/semi/csmwrap-research/Devices/PIPO_X9S/unpacked/I21TL_dual_PIPO_ltl089cl02_v009_160816.bin",
+          "offset": 6387452
+        },
+        {
+          "file": "/home/semi/csmwrap-research/Devices/PIPO_X9S/unpacked/I21TL_dual_PIPO_ltl089cl02_v009_160816.bin.dump/body.bin",
+          "offset": 6387452
+        },
+        {
+          "file": "/home/semi/csmwrap-research/Devices/PIPO_X9S/unpacked/I21TL_dual_PIPO_ltl089cl02_v009_160816.bin.dump/2 BIOS region/body.bin",
+          "offset": 2193148
+        },
+        {
+          "file": "/home/semi/csmwrap-research/Devices/PIPO_X9S/unpacked/I21TL_dual_PIPO_ltl089cl02_v009_160816.bin.dump/2 BIOS region/4 5C60F367-A505-419A-859E-2A4FF6CA6FE5/body.bin",
+          "offset": 1472132
+        },
+        {
+          "file": "/home/semi/csmwrap-research/Devices/PIPO_X9S/unpacked/I21TL_dual_PIPO_ltl089cl02_v009_160816.bin.dump/2 BIOS region/4 5C60F367-A505-419A-859E-2A4FF6CA6FE5/149 IntelGopVbtmipi/body.bin",
+          "offset": 4
+        },
+        {
+          "file": "/home/semi/csmwrap-research/Devices/PIPO_X9S/unpacked/I21TL_dual_PIPO_ltl089cl02_v009_160816.bin.dump/2 BIOS region/4 5C60F367-A505-419A-859E-2A4FF6CA6FE5/149 IntelGopVbtmipi/0 Raw section/body.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ],
+  "invalid_vbt_headers": [
+    {
+      "file": "/home/semi/csmwrap-research/Devices/PIPO_X9S/unpacked/I21TL_dual_PIPO_ltl089cl02_v009_160816.bin.dump/2 BIOS region/4 5C60F367-A505-419A-859E-2A4FF6CA6FE5/45 ChvInitDxe/1 EE4E5898-3914-4259-9D6E-DC7BD79403CF/unc_data.bin",
+      "offset": 7578,
+      "error": "VBT size/header bounds"
+    },
+    {
+      "file": "/home/semi/csmwrap-research/Devices/PIPO_X9S/unpacked/I21TL_dual_PIPO_ltl089cl02_v009_160816.bin.dump/2 BIOS region/4 5C60F367-A505-419A-859E-2A4FF6CA6FE5/45 ChvInitDxe/1 EE4E5898-3914-4259-9D6E-DC7BD79403CF/unc_data.bin",
+      "offset": 7994,
+      "error": "VBT size/header bounds"
+    },
+    {
+      "file": "/home/semi/csmwrap-research/Devices/PIPO_X9S/unpacked/I21TL_dual_PIPO_ltl089cl02_v009_160816.bin.dump/2 BIOS region/4 5C60F367-A505-419A-859E-2A4FF6CA6FE5/45 ChvInitDxe/1 EE4E5898-3914-4259-9D6E-DC7BD79403CF/0 PE32 image section/body.bin",
+      "offset": 7574,
+      "error": "VBT size/header bounds"
+    },
+    {
+      "file": "/home/semi/csmwrap-research/Devices/PIPO_X9S/unpacked/I21TL_dual_PIPO_ltl089cl02_v009_160816.bin.dump/2 BIOS region/4 5C60F367-A505-419A-859E-2A4FF6CA6FE5/45 ChvInitDxe/1 EE4E5898-3914-4259-9D6E-DC7BD79403CF/0 PE32 image section/body.bin",
+      "offset": 7990,
+      "error": "VBT size/header bounds"
+    }
+  ]
+}

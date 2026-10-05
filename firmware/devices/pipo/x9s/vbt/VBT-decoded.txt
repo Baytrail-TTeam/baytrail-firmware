@@ -1,0 +1,580 @@
+VBT header:
+	VBT signature:		"$VBT CHERRYVIEW     "
+	VBT version:		0x0064 (1.0)
+	VBT header size:	0x0030 (48)
+	VBT size:		0x17e0 (6112)
+	VBT checksum:		0xbf
+	BDB offset:		0x00000030 (48)
+
+BDB header:
+	BDB signature:		"BIOS_DATA_BLOCK "
+	BDB version:		195
+	BDB header size:	0x0016 (22)
+	BDB size:		0x17b0 (6064)
+
+BDB blocks present:
+	  1   2   3   4   6   7   8   9  10  12  13  16  17  18  19  20
+	 26  27  28  40  41  42  43  44  46  51  52  53 252 253 254
+
+BDB block 1 (5 bytes) - General features block:
+	Panel fitting: text & graphics (0x3)
+	Flexaim: no
+	Message: yes
+	Clear screen: 0
+	DVO color flip required: no
+	External VBT: no
+	LVDS SSC Enable: no
+	LVDS SSC frequency: 120 MHz (0x0)
+	LFP on override: no
+	Disable SSC on clone: no
+	Underscan support for VGA timings: no
+	Dynamic CD clock: no
+	Hotplug support in VBIOS: no
+	Disable smooth vision: no
+	Single DVI for CRT/DVI: no
+	Enable 180 degree rotation: no
+	Inverted FDI Rx polarity: no
+	Extended VBIOS mode: no
+	Copy iLFP DTD to SDVO LVDS DTD: no
+	Best fit panel timing algorithm: no
+	Ignore strap state: no
+	Legacy monitor detect: yes
+	Integrated CRT: yes
+	Integrated TV: no
+	Integrated EFP: no
+	DP SSC enable: no
+	DP SSC frequency: 120 MHz (0x0)
+	DP SSC dongle supported: no
+
+BDB block 2 (153 bytes) - General definitions block:
+	CRT DDC GMBUS addr: 0x02
+	Use DPMS on AIM devices: yes
+	Skip CRT detect at boot: no
+	Use Non ACPI DPMS CRT power states: no
+	Boot display type: 0x0000
+	Child device size: 37
+	Child device count: 4
+	Child device info:
+		Device handle: 0x0008 (LFP 1 (eDP))
+		Device type: 0x1400 (unknown)
+			Internal connector
+			HDMI output
+			MIPI output
+		I2C speed: 100 kHz (0x00)
+		DP onboard redriver:
+			present: no
+			vswing: 0.4V (0x0)
+			pre-emphasis: 0dB (0x0)
+		DP ondock redriver:
+			present: no
+			vswing: 0.4V (0x0)
+			pre-emphasis: 0dB (0x0)
+		HDMI level shifter value: 0x00
+		Offset to DTD buffer for edidless CHILD: 0x40
+		Edidless EFP: no
+		AIM offset: 0
+		DVO Port: MIPI-A (0x15)
+		AIM I2C pin: 0x00
+		AIM Slave address: 0x00
+		DDC pin: 0x04
+		EDID buffer ptr: 0x00
+		DVO config: 0x00
+		Onboard LSPCON: no
+		Lane reversal: no
+		EFP routed through dock: no
+		TMDS compatible? no
+		DP compatible? yes
+		HDMI compatible? no
+		Aux channel: AUX-C (0x20)
+		Dongle detect: 0x00
+		Integrated encoder instead of SDVO: yes
+		Hotplug connect status: 0x00
+		SDVO stall signal available: no
+		Pipe capabilities: 0x00
+		DVO wiring: 0x01
+		MIPI bridge type: 00 (unknown)
+		Device class extension: 0x00
+		DVO function: 0x00
+		DP USB type C support: no
+		2X DP GPIO index: 0x00
+		2X DP GPIO pin number: 0x00
+	Child device info:
+		Device handle: 0x0020 (EFP 3 (HDMI/DVI/DP))
+		Device type: 0x60d2 (DVI-D)
+			Power management
+			Hotplug signaling
+			HDMI output
+			Content protection
+			High speed link
+			TMDS/DVI signaling
+			Digital output
+		I2C speed: 100 kHz (0x00)
+		DP onboard redriver:
+			present: no
+			vswing: 0.4V (0x0)
+			pre-emphasis: 0dB (0x0)
+		DP ondock redriver:
+			present: no
+			vswing: 0.4V (0x0)
+			pre-emphasis: 0dB (0x0)
+		HDMI level shifter value: 0x00
+		Offset to DTD buffer for edidless CHILD: 0x741
+		Edidless EFP: no
+		AIM offset: 0
+		DVO Port: HDMI-D (0x03)
+		AIM I2C pin: 0x00
+		AIM Slave address: 0x00
+		DDC pin: 0x03
+		EDID buffer ptr: 0x00
+		DVO config: 0x00
+		Onboard LSPCON: no
+		Lane reversal: no
+		EFP routed through dock: no
+		TMDS compatible? yes
+		DP compatible? yes
+		HDMI compatible? yes
+		Aux channel: AUX-D (0x30)
+		Dongle detect: 0x00
+		Integrated encoder instead of SDVO: yes
+		Hotplug connect status: 0x00
+		SDVO stall signal available: no
+		Pipe capabilities: 0x00
+		DVO wiring: 0x02
+		MIPI bridge type: 00 (unknown)
+		Device class extension: 0x00
+		DVO function: 0x00
+		DP USB type C support: no
+		2X DP GPIO index: 0x00
+		2X DP GPIO pin number: 0x00
+
+BDB block 3 (1 bytes) - Unknown, no decoding available:
+
+BDB block 4 (28 bytes) - Unknown, no decoding available:
+
+BDB block 6 (117 bytes) - Unknown, no decoding available:
+
+BDB block 7 (7 bytes) - Unknown, no decoding available:
+
+BDB block 8 (61 bytes) - Unknown, no decoding available:
+
+BDB block 9 (96 bytes) - PSR block:
+	Panel 0 *
+		Full link: no
+		Require AUX to wakeup: no
+		Lines to wait before link standby: 0
+		Idle frames to for PSR enable: 0
+		TP1 wakeup time: 5000 usec (0x32)
+		TP2/TP3 wakeup time: 5000 usec (0x32)
+
+BDB block 10 (203 bytes) - Unknown, no decoding available:
+
+BDB block 12 (19 bytes) - Driver feature data block:
+	Use 00000110h ID for Primary LFP: no
+	Enable Sprite in Clone Mode: yes
+	Driver INT 15h hook: no
+	Dual View Zoom: no
+	Hot Plug DVO: yes
+	Allow display switching when in Full Screen DOS: no
+	Allow display switching when DVD active: yes
+	Boot Device Algorithm: os default
+	Boot Mode X: 1280
+	Boot Mode Y: 800
+	Boot Mode Bpp: 8
+	Boot Mode Refresh: 60
+	Enable LFP as primary: no
+	Selective Mode Pruning: no
+	Dual-Frequency Graphics Technology: no
+	Default Render Clock Frequency: high
+	NT 4.0 Dual Display Clone Support: no
+	Default Power Scheme user interface: CUI
+	Sprite Display Assignment when Overlay is Active in Clone Mode: secondary
+	Display Maintain Aspect Scaling via CUI: yes
+	Preserve Aspect Ratio: no
+	Enable SDVO device power down: no
+	CRT hotplug: yes
+	LVDS config: Embedded DisplayPort (0x3)
+	TV hotplug: no
+	Display subsystem enable: no
+	Embedded platform: no
+	Define Display statically: no
+	Legacy CRT max X: 1280
+	Legacy CRT max Y: 800
+	Legacy CRT max refresh: 60
+	Internal source termination for HDMI: no
+	CEA 861-D HDMI support: no
+	Self refresh enable: no
+	Custom VBT number: 0x0
+	PC Features field validity: yes
+	Dynamic Media Refresh Rate Switching (DMRRS): yes
+	Intermediate Pixel Storage (IPS): yes
+	Panel Self Refresh (PSR): yes
+	Turbo Boost Technology: yes
+	Graphics Power Management (GPMT): yes
+	Graphics Render Standby (RS): yes
+	Dynamic Refresh Rate Switching (DRRS): yes
+	Automatic Display Brightness (ADB): yes
+	DxgkDDI Backlight Control (DxgkDdiBLC): yes
+	Display Power Saving Technology (DPST): yes
+	Smart 2D Display Technology (S2DDT): yes
+	Rapid Memory Power Management (RMPM): yes
+
+BDB block 13 (3 bytes) - Unknown, no decoding available:
+
+BDB block 16 (132 bytes) - Unknown, no decoding available:
+
+BDB block 17 (8 bytes) - Unknown, no decoding available:
+
+BDB block 18 (12 bytes) - Unknown, no decoding available:
+
+BDB block 19 (32 bytes) - Unknown, no decoding available:
+
+BDB block 20 (158 bytes) - Unknown, no decoding available:
+
+BDB block 26 (2 bytes) - Unknown, no decoding available:
+
+BDB block 27 (280 bytes) - eDP block:
+	Panel 0 *
+		Power Sequence: T3 2000 T7 10 T9 2000 T10 500 T12 5000
+		Panel color depth: 18 bpp
+		eDP sDRRS MSA Delay: Lane 1
+		Fast link params:
+			rate: 1.62Gbps
+			lanes: X1			pre-emphasis: 0dB (0x0)
+			vswing: 0.4V (0x0)
+		Stereo 3D feature: no
+		T3 optimization: yes
+		Vswing/preemphasis table selection: Low power (200 mV)
+		Fast link training: no
+		DPCD 600h write required: no
+		PWM delays:
+			PWM on to backlight enable: 0
+			Backlight disable to PWM off: 0
+
+BDB block 28 (72 bytes) - Unknown, no decoding available:
+
+BDB block 40 (24 bytes) - LVDS options block:
+	Panel type: 0
+	LVDS EDID available: no
+	Pixel dither: yes
+	PFIT auto ratio: yes
+	PFIT enhanced graphics mode: no
+	PFIT enhanced text mode: no
+	PFIT mode: 3
+	Panel 0 *
+		Channel type: automatic (0x0)
+		SSC: no
+		SSC frequency: 120 MHz (0x0)
+		Disable SSC in dual display twin: no
+		Panel color depth: 18 (0x0)
+		DPS type: seamless DRRS (0x2)
+		Backlight type: LED (0x2)
+
+BDB block 41 (148 bytes) - LVDS timing pointer data:
+	Number of entries: 3
+	Panel 0 *
+		FP timing offset: 0
+		FP timing table size: 38
+		DVO timing offset: 38
+		DVO timing table size: 18
+		Panel PnP ID offset: 56
+		Panel PnP ID table size: 10
+	Panel name offset: 1056
+	Panel name table size: 13
+
+BDB block 42 (1282 bytes) - LVDS panel data block:
+	Panel 0 *
+		1920x1200 clock 144280000
+		info:
+		  LVDS: 0x00000000
+		  PP_ON_DELAYS: 0x00000000
+		  PP_OFF_DELAYS: 0x00000000
+		  PP_DIVISOR: 0x00000000
+		  PFIT: 0xb0703380
+		timings: 1920 1940 1956 1971 1200 1215 1217 1220 144280.00 (good)
+		PnP ID:
+		  Mfg name: @@@ (0x0)
+		  Product code: 36865
+		  Serial: 1
+		  Mfg week: 0
+		  Mfg year: 2002
+		Panel name: MIPI_BOE
+		Scaling enable: no
+		Seamless DRRS min refresh rate: 0
+
+BDB block 43 (129 bytes) - Backlight info block:
+	Panel 0 *
+		Inverter type: 2
+		Active low: 0
+		PWM freq: 50000
+		Minimum brightness: 26
+		Level: 155
+		Control type: 2
+		Controller: 0
+
+BDB block 44 (21 bytes) - LFP power conservation features block:
+	ALS enable: yes
+	Display LACE support: no
+	Default Display LACE enabled status: no
+	Power conservation preference level: 4
+	ALS backlight adjust: 70
+	ALS Lux: 0
+	ALS backlight adjust: 73
+	ALS Lux: 10
+	ALS backlight adjust: 85
+	ALS Lux: 80
+	ALS backlight adjust: 100
+	ALS Lux: 300
+	ALS backlight adjust: 150
+	ALS Lux: 1000
+	Display LACE aggressiveness profile: 0
+
+BDB block 46 (176 bytes) - Unknown, no decoding available:
+
+BDB block 51 (9 bytes) - Unknown, no decoding available:
+
+BDB block 52 (822 bytes) - MIPI configuration block:
+	Panel 0 *
+		General Param
+			 BTA disable: Disabled
+			 Panel Rotation: 0 degrees
+			 Video Mode Color Format: RGB888
+			 PPS GPIO Pins: Using SOC 
+			 CABC Support: not supported
+			 Mode: VIDEO
+			 Video transfer mode: non-burst with sync events (0x2)
+			 Dithering: done in Panel Controller
+		Port Desc
+			 Pixel overlap: 0
+			 Lane Count: 4
+			 Dual Link Support: not supported
+		Dphy Flags
+			 Clock Stop: ENABLED
+			 EOT disabled: EOT not to be sent
+
+		HSTxTimeOut: 0x3fffff
+		LPRXTimeOut: 0xffff
+		TurnAroundTimeOut: 0x14
+		DeviceResetTimer: 0xff
+		MasterinitTimer: 0x7d0
+		DBIBandwidthTimer: 0x0
+		LpByteClkValue: 0x4
+
+		Dphy Params
+			Exit to zero Count: 0x3f
+			Trail Count: 0x1F
+			Clk zero count: 0x7f
+			Prepare count:0xf
+
+		ClockLaneSwitchingCount: 0xa0014
+		HighToLowSwitchingCount: 0x46
+
+		Timings based on Dphy spec
+			TClkMiss: 0x3c
+			TClkPost: 0x3c
+			TClkPre: 0x8
+			TClkPrepare: 0x32
+			TClkSettle: 0x69
+			TClkTermEnable: 0x26
+
+		TClkTrail: 0x46
+		TClkPrepareTClkZero: 0x136
+		THSExit: 0x6e
+		THsPrepare: 0x32
+		THsPrepareTHsZero: 0xc8
+		THSSettle: 0x5f
+		THSSkip: 0x28
+		THsTrail: 0x3c
+		TInit: 0x0
+		TLPX: 0x32
+		MIPI PPS
+			Panel power ON delay: 2000
+			Panel power on to Backlight enable delay: 2000
+			Backlight disable to Panel power OFF delay: 2000
+			Panel power OFF delay: 500
+			Panel power cycle delay: 5000
+		MIPI PWM delays:
+			PWM on to backlight enable: 200
+			Backlight disable to PWM off: 100
+		MIPI PMIC I2C Bus Number: 6
+
+BDB block 53 (1545 bytes) - MIPI sequence block:
+	Sequence block version v3
+	Panel 0 *
+		Sequence 1 - MIPI_SEQ_ASSERT_RESET
+			GPIO index 0, number 72, set 1 (0x01)
+			Delay: 1200 us
+			GPIO index 0, number 72, set 1 (0x01)
+			Delay: 10000 us
+		Sequence 2 - MIPI_SEQ_INIT_OTP
+			Send DCS: Port A, VC 0, LP, Type 39, Length 5, Data ff aa 55 a5 80
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data 6f 11 00
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data f7 20 00
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data 6f 06
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data f7 a0
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data 6f 19
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data f7 12
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data 6f 08
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data fa 40
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data 6f 11
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data f3 01
+			Send DCS: Port A, VC 0, LP, Type 39, Length 6, Data f0 55 aa 52 08 00
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data c8 80
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data b1 6c 07
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data b6 08
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data 6f 02
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data b8 08
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data bb 74 44
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data bc 00 00
+			Send DCS: Port A, VC 0, LP, Type 39, Length 6, Data bd 02 b0 0c 0a 00
+			Send DCS: Port A, VC 0, LP, Type 39, Length 6, Data f0 55 aa 52 08 01
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data b0 05 05
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data b1 05 05
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data bc 90 01
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data bd 90 01
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data ca 00
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data c0 04
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data be 29
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data b3 37 37
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data b4 19 19
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data b9 46 46
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data ba 24 24
+			Send DCS: Port A, VC 0, LP, Type 39, Length 6, Data f0 55 aa 52 08 02
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data ee 01
+			Send DCS: Port A, VC 0, LP, Type 39, Length 5, Data ef 09 06 15 18
+			Send DCS: Port A, VC 0, LP, Type 39, Length 7, Data b0 00 00 00 25 00 53
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data 6f 06
+			Send DCS: Port A, VC 0, LP, Type 39, Length 7, Data b0 00 74 00 90 00 bb
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data 6f 0c
+			Send DCS: Port A, VC 0, LP, Type 39, Length 5, Data b0 00 de 01 14
+			Send DCS: Port A, VC 0, LP, Type 39, Length 7, Data b1 01 3f 01 81 01 b5
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data 6f 06
+			Send DCS: Port A, VC 0, LP, Type 39, Length 7, Data b1 02 04 02 44 02 46
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data 6f 0c
+			Send DCS: Port A, VC 0, LP, Type 39, Length 5, Data b1 02 80 02 bf
+			Send DCS: Port A, VC 0, LP, Type 39, Length 7, Data b2 02 e8 03 1e 03 41
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data 6f 06
+			Send DCS: Port A, VC 0, LP, Type 39, Length 7, Data b2 03 71 03 8e 03 b3
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data 6f 0c
+			Send DCS: Port A, VC 0, LP, Type 39, Length 5, Data b2 03 c9 03 e3
+			Send DCS: Port A, VC 0, LP, Type 39, Length 5, Data b3 03 fc 03 ff
+			Send DCS: Port A, VC 0, LP, Type 39, Length 6, Data f0 55 aa 52 08 06
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data b0 00 10
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data b1 12 14
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data b2 16 18
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data b3 1a 29
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data b4 2a 08
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data b5 31 31
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data b6 31 31
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data b7 31 31
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data b8 31 0a
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data b9 31 31
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data ba 31 31
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data bb 0b 31
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data bc 31 31
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data bd 31 31
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data be 31 31
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data bf 09 2a
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data c0 29 1b
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data c1 19 17
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data c2 15 13
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data c3 11 01
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data e5 31 31
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data c4 09 1b
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data c5 19 17
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data c6 15 13
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data c7 11 29
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data c8 2a 01
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data c9 31 31
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data ca 31 31
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data cb 31 31
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data cc 31 0b
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data cd 31 31
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data ce 31 31
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data cf 0a 31
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data d0 31 31
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data d1 31 31
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data d2 31 31
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data d3 00 2a
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data d4 29 10
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data d5 12 14
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data d6 16 18
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data d7 1a 08
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data e6 31 31
+			Send DCS: Port A, VC 0, LP, Type 39, Length 6, Data d8 00 00 00 54 00
+			Send DCS: Port A, VC 0, LP, Type 39, Length 6, Data d9 00 15 00 00 00
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data e7 00
+			Send DCS: Port A, VC 0, LP, Type 39, Length 6, Data f0 55 aa 52 08 03
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data b0 20 00
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data b1 20 00
+			Send DCS: Port A, VC 0, LP, Type 39, Length 6, Data b2 05 00 00 00 00
+			Send DCS: Port A, VC 0, LP, Type 39, Length 6, Data b6 05 00 00 00 00
+			Send DCS: Port A, VC 0, LP, Type 39, Length 6, Data b7 05 00 00 00 00
+			Send DCS: Port A, VC 0, LP, Type 39, Length 6, Data ba 57 00 00 00 00
+			Send DCS: Port A, VC 0, LP, Type 39, Length 6, Data bb 57 00 00 00 00
+			Send DCS: Port A, VC 0, LP, Type 39, Length 5, Data c0 00 00 00 00
+			Send DCS: Port A, VC 0, LP, Type 39, Length 5, Data c1 00 00 00 00
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data c4 60
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data c5 40
+			Send DCS: Port A, VC 0, LP, Type 39, Length 6, Data f0 55 aa 52 08 05
+			Send DCS: Port A, VC 0, LP, Type 39, Length 6, Data bd 03 01 03 03 03
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data b0 17 06
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data b1 17 06
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data b2 17 06
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data b3 17 06
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data b4 17 06
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data b5 17 06
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data b8 00
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data b9 00
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data ba 00
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data bb 02
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data bc 00
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data c0 07
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data c4 81
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data c5 a3
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data c8 05 30
+			Send DCS: Port A, VC 0, LP, Type 39, Length 3, Data c9 01 31
+			Send DCS: Port A, VC 0, LP, Type 39, Length 4, Data cc 00 00 3c
+			Send DCS: Port A, VC 0, LP, Type 39, Length 4, Data cd 00 00 3c
+			Send DCS: Port A, VC 0, LP, Type 39, Length 6, Data d1 00 04 fd 07 10
+			Send DCS: Port A, VC 0, LP, Type 39, Length 6, Data d2 00 05 02 07 10
+			Send DCS: Port A, VC 0, LP, Type 39, Length 2, Data e5 06
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data e6 06
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data e7 06
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data e8 06
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data e9 06
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data ea 06
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data ed 30
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data 6f 11
+			Send DCS: Port A, VC 0, LP, Type 15, Length 2, Data f3 01
+		Sequence 3 - MIPI_SEQ_DISPLAY_ON
+			Send DCS: Port A, VC 0, LP, Type 05, Length 2, Data 35 00
+			Send DCS: Port A, VC 0, LP, Type 05, Length 2, Data 29 00
+			Delay: 5000 us
+			Send DCS: Port A, VC 0, LP, Type 05, Length 2, Data 11 00
+			Delay: 10000 us
+		Sequence 4 - MIPI_SEQ_DISPLAY_OFF
+			Send DCS: Port A, VC 0, LP, Type 05, Length 2, Data 28 00
+			Delay: 17000 us
+			Send DCS: Port A, VC 0, LP, Type 05, Length 2, Data 10 00
+			Delay: 34000 us
+		Sequence 5 - MIPI_SEQ_DEASSERT_RESET
+			Delay: 10000 us
+			GPIO index 0, number 72, set 0 (0x00)
+		Sequence 6 - MIPI_SEQ_BACKLIGHT_ON
+			Delay: 200000 us
+			GPIO index 1, number 60, set 1 (0x01)
+			Delay: 20000 us
+		Sequence 7 - MIPI_SEQ_BACKLIGHT_OFF
+			GPIO index 1, number 60, set 0 (0x00)
+			Delay: 30000 us
+		Sequence 10 - MIPI_SEQ_POWER_ON
+			GPIO index 2, number 65, set 1 (0x01)
+		Sequence 11 - MIPI_SEQ_POWER_OFF
+			GPIO index 2, number 65, set 0 (0x00)
+
+BDB block 252 (120 bytes) - Unknown, no decoding available:
+
+BDB block 253 (50 bytes) - Unknown, no decoding available:
+
+BDB block 254 (234 bytes) - Unknown, no decoding available:
+

@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "id": "unknown/hpc7scp4",
+  "platform": "intel/bay-trail",
+  "board_revision": null,
+  "role": "reference",
+  "notes": "Identyfikacja na podstawie nazw istniejącej kolekcji; nie gwarantuje zgodności z innymi urządzeniami."
+}

@@ -1,0 +1,1360 @@
+[
+  {
+    "offset": 4698,
+    "offset_hex": "0x125a",
+    "old": "02",
+    "new": "00",
+    "setting": "BDB40 selected panel ->0"
+  },
+  {
+    "offset": 4700,
+    "offset_hex": "0x125c",
+    "old": "73",
+    "new": "33",
+    "setting": "BDB40 fitting, dithering, EDID capability"
+  },
+  {
+    "offset": 4358,
+    "offset_hex": "0x1106",
+    "old": "d0070a00d007f4018813",
+    "new": "d007f401f401a00f581b",
+    "setting": "panel0 eDP T3/T7/T9/T10/T12"
+  },
+  {
+    "offset": 4522,
+    "offset_hex": "0x11aa",
+    "old": "0000",
+    "new": "3100",
+    "setting": "panel0 fast-link rate/lanes/preemphasis/vswing"
+  },
+  {
+    "offset": 4562,
+    "offset_hex": "0x11d2",
+    "old": "1111111111111111",
+    "new": "1011111111111111",
+    "setting": "panel0 eDP vswing/preemphasis table"
+  },
+  {
+    "offset": 4570,
+    "offset_hex": "0x11da",
+    "old": "0000",
+    "new": "0100",
+    "setting": "panel0 eDP fast-link training"
+  },
+  {
+    "offset": 4574,
+    "offset_hex": "0x11de",
+    "old": "00000000",
+    "new": "0a000a00",
+    "setting": "panel0 eDP PWM-on/backlight-off delays"
+  },
+  {
+    "offset": 4714,
+    "offset_hex": "0x126a",
+    "old": "00000000",
+    "new": "02000000",
+    "setting": "panel0 BDB40 DRRS mode"
+  },
+  {
+    "offset": 4876,
+    "offset_hex": "0x130c",
+    "old": "8002e001",
+    "new": "56050003",
+    "setting": "panel0 FP dimensions; native register bytes preserved"
+  },
+  {
+    "offset": 4914,
+    "offset_hex": "0x1332",
+    "old": "d60980a020f01d010860220000000000001e",
+    "new": "861e5602510022305656e401eb840000001e",
+    "setting": "panel0 DTD: active Linux timing, 1366x768 78.14MHz"
+  },
+  {
+    "offset": 5932,
+    "offset_hex": "0x172c",
+    "old": "4c46505f50616e656c4e616d65",
+    "new": "4c544c313036414c3031000000",
+    "setting": "panel0 name LTL106AL01"
+  },
+  {
+    "offset": 6163,
+    "offset_hex": "0x1813",
+    "old": "c80000",
+    "new": "204e0a",
+    "setting": "panel0 backlight PWM20000Hz/minimum10"
+  },
+  {
+    "offset": 6258,
+    "offset_hex": "0x1872",
+    "old": "ff",
+    "new": "64",
+    "setting": "panel0 backlight level100"
+  },
+  {
+    "offset": 4368,
+    "offset_hex": "0x1110",
+    "old": "d0070a00d007f4018813",
+    "new": "d007f401f401a00f581b",
+    "setting": "panel1 eDP T3/T7/T9/T10/T12"
+  },
+  {
+    "offset": 4524,
+    "offset_hex": "0x11ac",
+    "old": "0000",
+    "new": "3100",
+    "setting": "panel1 fast-link rate/lanes/preemphasis/vswing"
+  },
+  {
+    "offset": 4562,
+    "offset_hex": "0x11d2",
+    "old": "1011111111111111",
+    "new": "0011111111111111",
+    "setting": "panel1 eDP vswing/preemphasis table"
+  },
+  {
+    "offset": 4570,
+    "offset_hex": "0x11da",
+    "old": "0100",
+    "new": "0300",
+    "setting": "panel1 eDP fast-link training"
+  },
+  {
+    "offset": 4578,
+    "offset_hex": "0x11e2",
+    "old": "00000000",
+    "new": "0a000a00",
+    "setting": "panel1 eDP PWM-on/backlight-off delays"
+  },
+  {
+    "offset": 4714,
+    "offset_hex": "0x126a",
+    "old": "02000000",
+    "new": "0a000000",
+    "setting": "panel1 BDB40 DRRS mode"
+  },
+  {
+    "offset": 4942,
+    "offset_hex": "0x134e",
+    "old": "20035802",
+    "new": "56050003",
+    "setting": "panel1 FP dimensions; native register bytes preserved"
+  },
+  {
+    "offset": 4980,
+    "offset_hex": "0x1374",
+    "old": "a00f200031581c202880140000000000001e",
+    "new": "861e5602510022305656e401eb840000001e",
+    "setting": "panel1 DTD: active Linux timing, 1366x768 78.14MHz"
+  },
+  {
+    "offset": 4998,
+    "offset_hex": "0x1386",
+    "old": "367f020002000000000c",
+    "new": "367f010001000000000c",
+    "setting": "panel1 PnP identity"
+  },
+  {
+    "offset": 5945,
+    "offset_hex": "0x1739",
+    "old": "4c46505f50616e656c4e616d65",
+    "new": "4c544c313036414c3031000000",
+    "setting": "panel1 name LTL106AL01"
+  },
+  {
+    "offset": 6169,
+    "offset_hex": "0x1819",
+    "old": "c80000",
+    "new": "204e0a",
+    "setting": "panel1 backlight PWM20000Hz/minimum10"
+  },
+  {
+    "offset": 6259,
+    "offset_hex": "0x1873",
+    "old": "ff",
+    "new": "64",
+    "setting": "panel1 backlight level100"
+  },
+  {
+    "offset": 4378,
+    "offset_hex": "0x111a",
+    "old": "d0070a00d007f4018813",
+    "new": "d007f401f401a00f581b",
+    "setting": "panel2 eDP T3/T7/T9/T10/T12"
+  },
+  {
+    "offset": 4526,
+    "offset_hex": "0x11ae",
+    "old": "0000",
+    "new": "3100",
+    "setting": "panel2 fast-link rate/lanes/preemphasis/vswing"
+  },
+  {
+    "offset": 4562,
+    "offset_hex": "0x11d2",
+    "old": "0011111111111111",
+    "new": "0010111111111111",
+    "setting": "panel2 eDP vswing/preemphasis table"
+  },
+  {
+    "offset": 4570,
+    "offset_hex": "0x11da",
+    "old": "0300",
+    "new": "0700",
+    "setting": "panel2 eDP fast-link training"
+  },
+  {
+    "offset": 4582,
+    "offset_hex": "0x11e6",
+    "old": "00000000",
+    "new": "0a000a00",
+    "setting": "panel2 eDP PWM-on/backlight-off delays"
+  },
+  {
+    "offset": 4714,
+    "offset_hex": "0x126a",
+    "old": "0a000000",
+    "new": "2a000000",
+    "setting": "panel2 BDB40 DRRS mode"
+  },
+  {
+    "offset": 5008,
+    "offset_hex": "0x1390",
+    "old": "00040003",
+    "new": "56050003",
+    "setting": "panel2 FP dimensions; native register bytes preserved"
+  },
+  {
+    "offset": 5046,
+    "offset_hex": "0x13b6",
+    "old": "641900404100263018883600000000000018",
+    "new": "861e5602510022305656e401eb840000001e",
+    "setting": "panel2 DTD: active Linux timing, 1366x768 78.14MHz"
+  },
+  {
+    "offset": 5064,
+    "offset_hex": "0x13c8",
+    "old": "367f030003000000000c",
+    "new": "367f010001000000000c",
+    "setting": "panel2 PnP identity"
+  },
+  {
+    "offset": 5958,
+    "offset_hex": "0x1746",
+    "old": "4c46505f50616e656c4e616d65",
+    "new": "4c544c313036414c3031000000",
+    "setting": "panel2 name LTL106AL01"
+  },
+  {
+    "offset": 6175,
+    "offset_hex": "0x181f",
+    "old": "c80000",
+    "new": "204e0a",
+    "setting": "panel2 backlight PWM20000Hz/minimum10"
+  },
+  {
+    "offset": 6260,
+    "offset_hex": "0x1874",
+    "old": "ff",
+    "new": "64",
+    "setting": "panel2 backlight level100"
+  },
+  {
+    "offset": 4388,
+    "offset_hex": "0x1124",
+    "old": "d0070a00d007f4018813",
+    "new": "d007f401f401a00f581b",
+    "setting": "panel3 eDP T3/T7/T9/T10/T12"
+  },
+  {
+    "offset": 4528,
+    "offset_hex": "0x11b0",
+    "old": "0000",
+    "new": "3100",
+    "setting": "panel3 fast-link rate/lanes/preemphasis/vswing"
+  },
+  {
+    "offset": 4562,
+    "offset_hex": "0x11d2",
+    "old": "0010111111111111",
+    "new": "0000111111111111",
+    "setting": "panel3 eDP vswing/preemphasis table"
+  },
+  {
+    "offset": 4570,
+    "offset_hex": "0x11da",
+    "old": "0700",
+    "new": "0f00",
+    "setting": "panel3 eDP fast-link training"
+  },
+  {
+    "offset": 4586,
+    "offset_hex": "0x11ea",
+    "old": "00000000",
+    "new": "0a000a00",
+    "setting": "panel3 eDP PWM-on/backlight-off delays"
+  },
+  {
+    "offset": 4714,
+    "offset_hex": "0x126a",
+    "old": "2a000000",
+    "new": "aa000000",
+    "setting": "panel3 BDB40 DRRS mode"
+  },
+  {
+    "offset": 5074,
+    "offset_hex": "0x13d2",
+    "old": "00050004",
+    "new": "56050003",
+    "setting": "panel3 FP dimensions; native register bytes preserved"
+  },
+  {
+    "offset": 5112,
+    "offset_hex": "0x13f8",
+    "old": "302a0098510030403070130000000000001e",
+    "new": "861e5602510022305656e401eb840000001e",
+    "setting": "panel3 DTD: active Linux timing, 1366x768 78.14MHz"
+  },
+  {
+    "offset": 5130,
+    "offset_hex": "0x140a",
+    "old": "367f050004000000000c",
+    "new": "367f010001000000000c",
+    "setting": "panel3 PnP identity"
+  },
+  {
+    "offset": 5971,
+    "offset_hex": "0x1753",
+    "old": "4c46505f50616e656c4e616d65",
+    "new": "4c544c313036414c3031000000",
+    "setting": "panel3 name LTL106AL01"
+  },
+  {
+    "offset": 6181,
+    "offset_hex": "0x1825",
+    "old": "c80000",
+    "new": "204e0a",
+    "setting": "panel3 backlight PWM20000Hz/minimum10"
+  },
+  {
+    "offset": 6261,
+    "offset_hex": "0x1875",
+    "old": "ff",
+    "new": "64",
+    "setting": "panel3 backlight level100"
+  },
+  {
+    "offset": 4398,
+    "offset_hex": "0x112e",
+    "old": "d0070a00d007f4018813",
+    "new": "d007f401f401a00f581b",
+    "setting": "panel4 eDP T3/T7/T9/T10/T12"
+  },
+  {
+    "offset": 4530,
+    "offset_hex": "0x11b2",
+    "old": "0000",
+    "new": "3100",
+    "setting": "panel4 fast-link rate/lanes/preemphasis/vswing"
+  },
+  {
+    "offset": 4562,
+    "offset_hex": "0x11d2",
+    "old": "0000111111111111",
+    "new": "0000101111111111",
+    "setting": "panel4 eDP vswing/preemphasis table"
+  },
+  {
+    "offset": 4570,
+    "offset_hex": "0x11da",
+    "old": "0f00",
+    "new": "1f00",
+    "setting": "panel4 eDP fast-link training"
+  },
+  {
+    "offset": 4590,
+    "offset_hex": "0x11ee",
+    "old": "00000000",
+    "new": "0a000a00",
+    "setting": "panel4 eDP PWM-on/backlight-off delays"
+  },
+  {
+    "offset": 4714,
+    "offset_hex": "0x126a",
+    "old": "aa000000",
+    "new": "aa020000",
+    "setting": "panel4 BDB40 DRRS mode"
+  },
+  {
+    "offset": 5140,
+    "offset_hex": "0x1414",
+    "old": "78051a04",
+    "new": "56050003",
+    "setting": "panel4 FP dimensions; native register bytes preserved"
+  },
+  {
+    "offset": 5178,
+    "offset_hex": "0x143a",
+    "old": "302a7820511a10401070130000000000001e",
+    "new": "861e5602510022305656e401eb840000001e",
+    "setting": "panel4 DTD: active Linux timing, 1366x768 78.14MHz"
+  },
+  {
+    "offset": 5196,
+    "offset_hex": "0x144c",
+    "old": "367f019005000000000c",
+    "new": "367f010001000000000c",
+    "setting": "panel4 PnP identity"
+  },
+  {
+    "offset": 5984,
+    "offset_hex": "0x1760",
+    "old": "4c46505f50616e656c4e616d65",
+    "new": "4c544c313036414c3031000000",
+    "setting": "panel4 name LTL106AL01"
+  },
+  {
+    "offset": 6187,
+    "offset_hex": "0x182b",
+    "old": "c80000",
+    "new": "204e0a",
+    "setting": "panel4 backlight PWM20000Hz/minimum10"
+  },
+  {
+    "offset": 6262,
+    "offset_hex": "0x1876",
+    "old": "ff",
+    "new": "64",
+    "setting": "panel4 backlight level100"
+  },
+  {
+    "offset": 4408,
+    "offset_hex": "0x1138",
+    "old": "d0070a00d007f4018813",
+    "new": "d007f401f401a00f581b",
+    "setting": "panel5 eDP T3/T7/T9/T10/T12"
+  },
+  {
+    "offset": 4532,
+    "offset_hex": "0x11b4",
+    "old": "0000",
+    "new": "3100",
+    "setting": "panel5 fast-link rate/lanes/preemphasis/vswing"
+  },
+  {
+    "offset": 4562,
+    "offset_hex": "0x11d2",
+    "old": "0000101111111111",
+    "new": "0000001111111111",
+    "setting": "panel5 eDP vswing/preemphasis table"
+  },
+  {
+    "offset": 4570,
+    "offset_hex": "0x11da",
+    "old": "1f00",
+    "new": "3f00",
+    "setting": "panel5 eDP fast-link training"
+  },
+  {
+    "offset": 4594,
+    "offset_hex": "0x11f2",
+    "old": "00000000",
+    "new": "0a000a00",
+    "setting": "panel5 eDP PWM-on/backlight-off delays"
+  },
+  {
+    "offset": 4714,
+    "offset_hex": "0x126a",
+    "old": "aa020000",
+    "new": "aa0a0000",
+    "setting": "panel5 BDB40 DRRS mode"
+  },
+  {
+    "offset": 5206,
+    "offset_hex": "0x1456",
+    "old": "78051a04",
+    "new": "56050003",
+    "setting": "panel5 FP dimensions; native register bytes preserved"
+  },
+  {
+    "offset": 5244,
+    "offset_hex": "0x147c",
+    "old": "a82f78e0511a26405898130000000000001e",
+    "new": "861e5602510022305656e401eb840000001e",
+    "setting": "panel5 DTD: active Linux timing, 1366x768 78.14MHz"
+  },
+  {
+    "offset": 5262,
+    "offset_hex": "0x148e",
+    "old": "367f019006000000000c",
+    "new": "367f010001000000000c",
+    "setting": "panel5 PnP identity"
+  },
+  {
+    "offset": 5997,
+    "offset_hex": "0x176d",
+    "old": "4c46505f50616e656c4e616d65",
+    "new": "4c544c313036414c3031000000",
+    "setting": "panel5 name LTL106AL01"
+  },
+  {
+    "offset": 6193,
+    "offset_hex": "0x1831",
+    "old": "c80000",
+    "new": "204e0a",
+    "setting": "panel5 backlight PWM20000Hz/minimum10"
+  },
+  {
+    "offset": 6263,
+    "offset_hex": "0x1877",
+    "old": "ff",
+    "new": "64",
+    "setting": "panel5 backlight level100"
+  },
+  {
+    "offset": 4418,
+    "offset_hex": "0x1142",
+    "old": "d0070a00d007f4018813",
+    "new": "d007f401f401a00f581b",
+    "setting": "panel6 eDP T3/T7/T9/T10/T12"
+  },
+  {
+    "offset": 4534,
+    "offset_hex": "0x11b6",
+    "old": "0000",
+    "new": "3100",
+    "setting": "panel6 fast-link rate/lanes/preemphasis/vswing"
+  },
+  {
+    "offset": 4562,
+    "offset_hex": "0x11d2",
+    "old": "0000001111111111",
+    "new": "0000001011111111",
+    "setting": "panel6 eDP vswing/preemphasis table"
+  },
+  {
+    "offset": 4570,
+    "offset_hex": "0x11da",
+    "old": "3f00",
+    "new": "7f00",
+    "setting": "panel6 eDP fast-link training"
+  },
+  {
+    "offset": 4598,
+    "offset_hex": "0x11f6",
+    "old": "00000000",
+    "new": "0a000a00",
+    "setting": "panel6 eDP PWM-on/backlight-off delays"
+  },
+  {
+    "offset": 4714,
+    "offset_hex": "0x126a",
+    "old": "aa0a0000",
+    "new": "aa2a0000",
+    "setting": "panel6 BDB40 DRRS mode"
+  },
+  {
+    "offset": 5272,
+    "offset_hex": "0x1498",
+    "old": "4006b004",
+    "new": "56050003",
+    "setting": "panel6 FP dimensions; native register bytes preserved"
+  },
+  {
+    "offset": 5310,
+    "offset_hex": "0x14be",
+    "old": "483f403062b0324040c0130000000000001e",
+    "new": "861e5602510022305656e401eb840000001e",
+    "setting": "panel6 DTD: active Linux timing, 1366x768 78.14MHz"
+  },
+  {
+    "offset": 5328,
+    "offset_hex": "0x14d0",
+    "old": "367f060007000000000c",
+    "new": "367f010001000000000c",
+    "setting": "panel6 PnP identity"
+  },
+  {
+    "offset": 6010,
+    "offset_hex": "0x177a",
+    "old": "4c46505f50616e656c4e616d65",
+    "new": "4c544c313036414c3031000000",
+    "setting": "panel6 name LTL106AL01"
+  },
+  {
+    "offset": 6199,
+    "offset_hex": "0x1837",
+    "old": "c80000",
+    "new": "204e0a",
+    "setting": "panel6 backlight PWM20000Hz/minimum10"
+  },
+  {
+    "offset": 6264,
+    "offset_hex": "0x1878",
+    "old": "ff",
+    "new": "64",
+    "setting": "panel6 backlight level100"
+  },
+  {
+    "offset": 4428,
+    "offset_hex": "0x114c",
+    "old": "d0070a00d007f4018813",
+    "new": "d007f401f401a00f581b",
+    "setting": "panel7 eDP T3/T7/T9/T10/T12"
+  },
+  {
+    "offset": 4536,
+    "offset_hex": "0x11b8",
+    "old": "0000",
+    "new": "3100",
+    "setting": "panel7 fast-link rate/lanes/preemphasis/vswing"
+  },
+  {
+    "offset": 4562,
+    "offset_hex": "0x11d2",
+    "old": "0000001011111111",
+    "new": "0000000011111111",
+    "setting": "panel7 eDP vswing/preemphasis table"
+  },
+  {
+    "offset": 4570,
+    "offset_hex": "0x11da",
+    "old": "7f00",
+    "new": "ff00",
+    "setting": "panel7 eDP fast-link training"
+  },
+  {
+    "offset": 4602,
+    "offset_hex": "0x11fa",
+    "old": "00000000",
+    "new": "0a000a00",
+    "setting": "panel7 eDP PWM-on/backlight-off delays"
+  },
+  {
+    "offset": 4714,
+    "offset_hex": "0x126a",
+    "old": "aa2a0000",
+    "new": "aaaa0000",
+    "setting": "panel7 BDB40 DRRS mode"
+  },
+  {
+    "offset": 5376,
+    "offset_hex": "0x1500",
+    "old": "662156aa51001e3046901400000000000018",
+    "new": "861e5602510022305656e401eb840000001e",
+    "setting": "panel7 DTD: active Linux timing, 1366x768 78.14MHz"
+  },
+  {
+    "offset": 5394,
+    "offset_hex": "0x1512",
+    "old": "367f0390080000000001",
+    "new": "367f010001000000000c",
+    "setting": "panel7 PnP identity"
+  },
+  {
+    "offset": 6023,
+    "offset_hex": "0x1787",
+    "old": "4c46505f50616e656c4e616d65",
+    "new": "4c544c313036414c3031000000",
+    "setting": "panel7 name LTL106AL01"
+  },
+  {
+    "offset": 6205,
+    "offset_hex": "0x183d",
+    "old": "c80000",
+    "new": "204e0a",
+    "setting": "panel7 backlight PWM20000Hz/minimum10"
+  },
+  {
+    "offset": 6265,
+    "offset_hex": "0x1879",
+    "old": "ff",
+    "new": "64",
+    "setting": "panel7 backlight level100"
+  },
+  {
+    "offset": 4438,
+    "offset_hex": "0x1156",
+    "old": "d0070a00d007f4018813",
+    "new": "d007f401f401a00f581b",
+    "setting": "panel8 eDP T3/T7/T9/T10/T12"
+  },
+  {
+    "offset": 4538,
+    "offset_hex": "0x11ba",
+    "old": "0000",
+    "new": "3100",
+    "setting": "panel8 fast-link rate/lanes/preemphasis/vswing"
+  },
+  {
+    "offset": 4562,
+    "offset_hex": "0x11d2",
+    "old": "0000000011111111",
+    "new": "0000000010111111",
+    "setting": "panel8 eDP vswing/preemphasis table"
+  },
+  {
+    "offset": 4570,
+    "offset_hex": "0x11da",
+    "old": "ff00",
+    "new": "ff01",
+    "setting": "panel8 eDP fast-link training"
+  },
+  {
+    "offset": 4606,
+    "offset_hex": "0x11fe",
+    "old": "00000000",
+    "new": "0a000a00",
+    "setting": "panel8 eDP PWM-on/backlight-off delays"
+  },
+  {
+    "offset": 4714,
+    "offset_hex": "0x126a",
+    "old": "aaaa0000",
+    "new": "aaaa0200",
+    "setting": "panel8 BDB40 DRRS mode"
+  },
+  {
+    "offset": 5404,
+    "offset_hex": "0x151c",
+    "old": "90061a04",
+    "new": "56050003",
+    "setting": "panel8 FP dimensions; native register bytes preserved"
+  },
+  {
+    "offset": 5442,
+    "offset_hex": "0x1542",
+    "old": "7c2e90a0601a1e403020360000000000001e",
+    "new": "861e5602510022305656e401eb840000001e",
+    "setting": "panel8 DTD: active Linux timing, 1366x768 78.14MHz"
+  },
+  {
+    "offset": 5460,
+    "offset_hex": "0x1554",
+    "old": "367f049009000000000c",
+    "new": "367f010001000000000c",
+    "setting": "panel8 PnP identity"
+  },
+  {
+    "offset": 6036,
+    "offset_hex": "0x1794",
+    "old": "4c46505f50616e656c4e616d65",
+    "new": "4c544c313036414c3031000000",
+    "setting": "panel8 name LTL106AL01"
+  },
+  {
+    "offset": 6211,
+    "offset_hex": "0x1843",
+    "old": "c80000",
+    "new": "204e0a",
+    "setting": "panel8 backlight PWM20000Hz/minimum10"
+  },
+  {
+    "offset": 6266,
+    "offset_hex": "0x187a",
+    "old": "ff",
+    "new": "64",
+    "setting": "panel8 backlight level100"
+  },
+  {
+    "offset": 4448,
+    "offset_hex": "0x1160",
+    "old": "d0070a00d007f4018813",
+    "new": "d007f401f401a00f581b",
+    "setting": "panel9 eDP T3/T7/T9/T10/T12"
+  },
+  {
+    "offset": 4540,
+    "offset_hex": "0x11bc",
+    "old": "0000",
+    "new": "3100",
+    "setting": "panel9 fast-link rate/lanes/preemphasis/vswing"
+  },
+  {
+    "offset": 4562,
+    "offset_hex": "0x11d2",
+    "old": "0000000010111111",
+    "new": "0000000000111111",
+    "setting": "panel9 eDP vswing/preemphasis table"
+  },
+  {
+    "offset": 4570,
+    "offset_hex": "0x11da",
+    "old": "ff01",
+    "new": "ff03",
+    "setting": "panel9 eDP fast-link training"
+  },
+  {
+    "offset": 4610,
+    "offset_hex": "0x1202",
+    "old": "00000000",
+    "new": "0a000a00",
+    "setting": "panel9 eDP PWM-on/backlight-off delays"
+  },
+  {
+    "offset": 4714,
+    "offset_hex": "0x126a",
+    "old": "aaaa0200",
+    "new": "aaaa0a00",
+    "setting": "panel9 BDB40 DRRS mode"
+  },
+  {
+    "offset": 5470,
+    "offset_hex": "0x155e",
+    "old": "8007b004",
+    "new": "56050003",
+    "setting": "panel9 FP dimensions; native register bytes preserved"
+  },
+  {
+    "offset": 5508,
+    "offset_hex": "0x1584",
+    "old": "283c80a070b0234030202a0000000000001e",
+    "new": "861e5602510022305656e401eb840000001e",
+    "setting": "panel9 DTD: active Linux timing, 1366x768 78.14MHz"
+  },
+  {
+    "offset": 5526,
+    "offset_hex": "0x1596",
+    "old": "367f05900a000000000c",
+    "new": "367f010001000000000c",
+    "setting": "panel9 PnP identity"
+  },
+  {
+    "offset": 6049,
+    "offset_hex": "0x17a1",
+    "old": "4c46505f50616e656c4e616d65",
+    "new": "4c544c313036414c3031000000",
+    "setting": "panel9 name LTL106AL01"
+  },
+  {
+    "offset": 6217,
+    "offset_hex": "0x1849",
+    "old": "c80000",
+    "new": "204e0a",
+    "setting": "panel9 backlight PWM20000Hz/minimum10"
+  },
+  {
+    "offset": 6267,
+    "offset_hex": "0x187b",
+    "old": "ff",
+    "new": "64",
+    "setting": "panel9 backlight level100"
+  },
+  {
+    "offset": 4458,
+    "offset_hex": "0x116a",
+    "old": "d0070a00d007f4018813",
+    "new": "d007f401f401a00f581b",
+    "setting": "panel10 eDP T3/T7/T9/T10/T12"
+  },
+  {
+    "offset": 4542,
+    "offset_hex": "0x11be",
+    "old": "0000",
+    "new": "3100",
+    "setting": "panel10 fast-link rate/lanes/preemphasis/vswing"
+  },
+  {
+    "offset": 4562,
+    "offset_hex": "0x11d2",
+    "old": "0000000000111111",
+    "new": "0000000000101111",
+    "setting": "panel10 eDP vswing/preemphasis table"
+  },
+  {
+    "offset": 4570,
+    "offset_hex": "0x11da",
+    "old": "ff03",
+    "new": "ff07",
+    "setting": "panel10 eDP fast-link training"
+  },
+  {
+    "offset": 4614,
+    "offset_hex": "0x1206",
+    "old": "00000000",
+    "new": "0a000a00",
+    "setting": "panel10 eDP PWM-on/backlight-off delays"
+  },
+  {
+    "offset": 4714,
+    "offset_hex": "0x126a",
+    "old": "aaaa0a00",
+    "new": "aaaa2a00",
+    "setting": "panel10 BDB40 DRRS mode"
+  },
+  {
+    "offset": 5536,
+    "offset_hex": "0x15a0",
+    "old": "a0058403",
+    "new": "56050003",
+    "setting": "panel10 FP dimensions; native register bytes preserved"
+  },
+  {
+    "offset": 5574,
+    "offset_hex": "0x15c6",
+    "old": "9a29a0d0518422305099170000000000001e",
+    "new": "861e5602510022305656e401eb840000001e",
+    "setting": "panel10 DTD: active Linux timing, 1366x768 78.14MHz"
+  },
+  {
+    "offset": 5592,
+    "offset_hex": "0x15d8",
+    "old": "367f03000b000000000c",
+    "new": "367f010001000000000c",
+    "setting": "panel10 PnP identity"
+  },
+  {
+    "offset": 6062,
+    "offset_hex": "0x17ae",
+    "old": "4c46505f50616e656c4e616d65",
+    "new": "4c544c313036414c3031000000",
+    "setting": "panel10 name LTL106AL01"
+  },
+  {
+    "offset": 6223,
+    "offset_hex": "0x184f",
+    "old": "c80000",
+    "new": "204e0a",
+    "setting": "panel10 backlight PWM20000Hz/minimum10"
+  },
+  {
+    "offset": 6268,
+    "offset_hex": "0x187c",
+    "old": "ff",
+    "new": "64",
+    "setting": "panel10 backlight level100"
+  },
+  {
+    "offset": 4468,
+    "offset_hex": "0x1174",
+    "old": "d0070a00d007f4018813",
+    "new": "d007f401f401a00f581b",
+    "setting": "panel11 eDP T3/T7/T9/T10/T12"
+  },
+  {
+    "offset": 4544,
+    "offset_hex": "0x11c0",
+    "old": "0000",
+    "new": "3100",
+    "setting": "panel11 fast-link rate/lanes/preemphasis/vswing"
+  },
+  {
+    "offset": 4562,
+    "offset_hex": "0x11d2",
+    "old": "0000000000101111",
+    "new": "0000000000001111",
+    "setting": "panel11 eDP vswing/preemphasis table"
+  },
+  {
+    "offset": 4570,
+    "offset_hex": "0x11da",
+    "old": "ff07",
+    "new": "ff0f",
+    "setting": "panel11 eDP fast-link training"
+  },
+  {
+    "offset": 4618,
+    "offset_hex": "0x120a",
+    "old": "00000000",
+    "new": "0a000a00",
+    "setting": "panel11 eDP PWM-on/backlight-off delays"
+  },
+  {
+    "offset": 4714,
+    "offset_hex": "0x126a",
+    "old": "aaaa2a00",
+    "new": "aaaaaa00",
+    "setting": "panel11 BDB40 DRRS mode"
+  },
+  {
+    "offset": 5602,
+    "offset_hex": "0x15e2",
+    "old": "40068403",
+    "new": "56050003",
+    "setting": "panel11 FP dimensions; native register bytes preserved"
+  },
+  {
+    "offset": 5640,
+    "offset_hex": "0x1608",
+    "old": "302a40c8608464301851040000000000001e",
+    "new": "861e5602510022305656e401eb840000001e",
+    "setting": "panel11 DTD: active Linux timing, 1366x768 78.14MHz"
+  },
+  {
+    "offset": 5658,
+    "offset_hex": "0x161a",
+    "old": "367f03000c000000000c",
+    "new": "367f010001000000000c",
+    "setting": "panel11 PnP identity"
+  },
+  {
+    "offset": 6075,
+    "offset_hex": "0x17bb",
+    "old": "4c46505f50616e656c4e616d65",
+    "new": "4c544c313036414c3031000000",
+    "setting": "panel11 name LTL106AL01"
+  },
+  {
+    "offset": 6229,
+    "offset_hex": "0x1855",
+    "old": "c80000",
+    "new": "204e0a",
+    "setting": "panel11 backlight PWM20000Hz/minimum10"
+  },
+  {
+    "offset": 6269,
+    "offset_hex": "0x187d",
+    "old": "ff",
+    "new": "64",
+    "setting": "panel11 backlight level100"
+  },
+  {
+    "offset": 4478,
+    "offset_hex": "0x117e",
+    "old": "d0070a00d007f4018813",
+    "new": "d007f401f401a00f581b",
+    "setting": "panel12 eDP T3/T7/T9/T10/T12"
+  },
+  {
+    "offset": 4546,
+    "offset_hex": "0x11c2",
+    "old": "0000",
+    "new": "3100",
+    "setting": "panel12 fast-link rate/lanes/preemphasis/vswing"
+  },
+  {
+    "offset": 4562,
+    "offset_hex": "0x11d2",
+    "old": "0000000000001111",
+    "new": "0000000000001011",
+    "setting": "panel12 eDP vswing/preemphasis table"
+  },
+  {
+    "offset": 4570,
+    "offset_hex": "0x11da",
+    "old": "ff0f",
+    "new": "ff1f",
+    "setting": "panel12 eDP fast-link training"
+  },
+  {
+    "offset": 4622,
+    "offset_hex": "0x120e",
+    "old": "00000000",
+    "new": "0a000a00",
+    "setting": "panel12 eDP PWM-on/backlight-off delays"
+  },
+  {
+    "offset": 4714,
+    "offset_hex": "0x126a",
+    "old": "aaaaaa00",
+    "new": "aaaaaa02",
+    "setting": "panel12 BDB40 DRRS mode"
+  },
+  {
+    "offset": 5668,
+    "offset_hex": "0x1624",
+    "old": "00040003",
+    "new": "56050003",
+    "setting": "panel12 FP dimensions; native register bytes preserved"
+  },
+  {
+    "offset": 5706,
+    "offset_hex": "0x164a",
+    "old": "64190040410026301888360000000000001e",
+    "new": "861e5602510022305656e401eb840000001e",
+    "setting": "panel12 DTD: active Linux timing, 1366x768 78.14MHz"
+  },
+  {
+    "offset": 5724,
+    "offset_hex": "0x165c",
+    "old": "367f03000d000000000c",
+    "new": "367f010001000000000c",
+    "setting": "panel12 PnP identity"
+  },
+  {
+    "offset": 6088,
+    "offset_hex": "0x17c8",
+    "old": "4c46505f50616e656c4e616d65",
+    "new": "4c544c313036414c3031000000",
+    "setting": "panel12 name LTL106AL01"
+  },
+  {
+    "offset": 6235,
+    "offset_hex": "0x185b",
+    "old": "c80000",
+    "new": "204e0a",
+    "setting": "panel12 backlight PWM20000Hz/minimum10"
+  },
+  {
+    "offset": 6270,
+    "offset_hex": "0x187e",
+    "old": "ff",
+    "new": "64",
+    "setting": "panel12 backlight level100"
+  },
+  {
+    "offset": 4488,
+    "offset_hex": "0x1188",
+    "old": "d0070a00d007f4018813",
+    "new": "d007f401f401a00f581b",
+    "setting": "panel13 eDP T3/T7/T9/T10/T12"
+  },
+  {
+    "offset": 4548,
+    "offset_hex": "0x11c4",
+    "old": "0000",
+    "new": "3100",
+    "setting": "panel13 fast-link rate/lanes/preemphasis/vswing"
+  },
+  {
+    "offset": 4562,
+    "offset_hex": "0x11d2",
+    "old": "0000000000001011",
+    "new": "0000000000000011",
+    "setting": "panel13 eDP vswing/preemphasis table"
+  },
+  {
+    "offset": 4570,
+    "offset_hex": "0x11da",
+    "old": "ff1f",
+    "new": "ff3f",
+    "setting": "panel13 eDP fast-link training"
+  },
+  {
+    "offset": 4626,
+    "offset_hex": "0x1212",
+    "old": "00000000",
+    "new": "0a000a00",
+    "setting": "panel13 eDP PWM-on/backlight-off delays"
+  },
+  {
+    "offset": 4714,
+    "offset_hex": "0x126a",
+    "old": "aaaaaa02",
+    "new": "aaaaaa0a",
+    "setting": "panel13 BDB40 DRRS mode"
+  },
+  {
+    "offset": 5734,
+    "offset_hex": "0x1666",
+    "old": "00052003",
+    "new": "56050003",
+    "setting": "panel13 FP dimensions; native register bytes preserved"
+  },
+  {
+    "offset": 5772,
+    "offset_hex": "0x168c",
+    "old": "ea1a00a0502017300c30430000000000001e",
+    "new": "861e5602510022305656e401eb840000001e",
+    "setting": "panel13 DTD: active Linux timing, 1366x768 78.14MHz"
+  },
+  {
+    "offset": 5790,
+    "offset_hex": "0x169e",
+    "old": "367f03900e000000000c",
+    "new": "367f010001000000000c",
+    "setting": "panel13 PnP identity"
+  },
+  {
+    "offset": 6101,
+    "offset_hex": "0x17d5",
+    "old": "4c46505f50616e656c4e616d65",
+    "new": "4c544c313036414c3031000000",
+    "setting": "panel13 name LTL106AL01"
+  },
+  {
+    "offset": 6241,
+    "offset_hex": "0x1861",
+    "old": "c80000",
+    "new": "204e0a",
+    "setting": "panel13 backlight PWM20000Hz/minimum10"
+  },
+  {
+    "offset": 6271,
+    "offset_hex": "0x187f",
+    "old": "ff",
+    "new": "64",
+    "setting": "panel13 backlight level100"
+  },
+  {
+    "offset": 4498,
+    "offset_hex": "0x1192",
+    "old": "d0070a00d007f4018813",
+    "new": "d007f401f401a00f581b",
+    "setting": "panel14 eDP T3/T7/T9/T10/T12"
+  },
+  {
+    "offset": 4550,
+    "offset_hex": "0x11c6",
+    "old": "0000",
+    "new": "3100",
+    "setting": "panel14 fast-link rate/lanes/preemphasis/vswing"
+  },
+  {
+    "offset": 4562,
+    "offset_hex": "0x11d2",
+    "old": "0000000000000011",
+    "new": "0000000000000010",
+    "setting": "panel14 eDP vswing/preemphasis table"
+  },
+  {
+    "offset": 4570,
+    "offset_hex": "0x11da",
+    "old": "ff3f",
+    "new": "ff7f",
+    "setting": "panel14 eDP fast-link training"
+  },
+  {
+    "offset": 4630,
+    "offset_hex": "0x1216",
+    "old": "00000000",
+    "new": "0a000a00",
+    "setting": "panel14 eDP PWM-on/backlight-off delays"
+  },
+  {
+    "offset": 4714,
+    "offset_hex": "0x126a",
+    "old": "aaaaaa0a",
+    "new": "aaaaaa2a",
+    "setting": "panel14 BDB40 DRRS mode"
+  },
+  {
+    "offset": 5800,
+    "offset_hex": "0x16a8",
+    "old": "80073804",
+    "new": "56050003",
+    "setting": "panel14 FP dimensions; native register bytes preserved"
+  },
+  {
+    "offset": 5838,
+    "offset_hex": "0x16ce",
+    "old": "023a801871382d40582d360000000000001e",
+    "new": "861e5602510022305656e401eb840000001e",
+    "setting": "panel14 DTD: active Linux timing, 1366x768 78.14MHz"
+  },
+  {
+    "offset": 5856,
+    "offset_hex": "0x16e0",
+    "old": "367f03000f000000000c",
+    "new": "367f010001000000000c",
+    "setting": "panel14 PnP identity"
+  },
+  {
+    "offset": 6114,
+    "offset_hex": "0x17e2",
+    "old": "4c46505f50616e656c4e616d65",
+    "new": "4c544c313036414c3031000000",
+    "setting": "panel14 name LTL106AL01"
+  },
+  {
+    "offset": 6247,
+    "offset_hex": "0x1867",
+    "old": "c80000",
+    "new": "204e0a",
+    "setting": "panel14 backlight PWM20000Hz/minimum10"
+  },
+  {
+    "offset": 6272,
+    "offset_hex": "0x1880",
+    "old": "ff",
+    "new": "64",
+    "setting": "panel14 backlight level100"
+  },
+  {
+    "offset": 4508,
+    "offset_hex": "0x119c",
+    "old": "d0070a00d007f4018813",
+    "new": "d007f401f401a00f581b",
+    "setting": "panel15 eDP T3/T7/T9/T10/T12"
+  },
+  {
+    "offset": 4552,
+    "offset_hex": "0x11c8",
+    "old": "0000",
+    "new": "3100",
+    "setting": "panel15 fast-link rate/lanes/preemphasis/vswing"
+  },
+  {
+    "offset": 4562,
+    "offset_hex": "0x11d2",
+    "old": "0000000000000010",
+    "new": "0000000000000000",
+    "setting": "panel15 eDP vswing/preemphasis table"
+  },
+  {
+    "offset": 4570,
+    "offset_hex": "0x11da",
+    "old": "ff7f",
+    "new": "ffff",
+    "setting": "panel15 eDP fast-link training"
+  },
+  {
+    "offset": 4634,
+    "offset_hex": "0x121a",
+    "old": "00000000",
+    "new": "0a000a00",
+    "setting": "panel15 eDP PWM-on/backlight-off delays"
+  },
+  {
+    "offset": 4714,
+    "offset_hex": "0x126a",
+    "old": "aaaaaa2a",
+    "new": "aaaaaaaa",
+    "setting": "panel15 BDB40 DRRS mode"
+  },
+  {
+    "offset": 5866,
+    "offset_hex": "0x16ea",
+    "old": "00080006",
+    "new": "56050003",
+    "setting": "panel15 FP dimensions; native register bytes preserved"
+  },
+  {
+    "offset": 5904,
+    "offset_hex": "0x1710",
+    "old": "29400060800013601010110000000000001e",
+    "new": "861e5602510022305656e401eb840000001e",
+    "setting": "panel15 DTD: active Linux timing, 1366x768 78.14MHz"
+  },
+  {
+    "offset": 5922,
+    "offset_hex": "0x1722",
+    "old": "367f030010000000000c",
+    "new": "367f010001000000000c",
+    "setting": "panel15 PnP identity"
+  },
+  {
+    "offset": 6127,
+    "offset_hex": "0x17ef",
+    "old": "4c46505f50616e656c4e616d65",
+    "new": "4c544c313036414c3031000000",
+    "setting": "panel15 name LTL106AL01"
+  },
+  {
+    "offset": 6253,
+    "offset_hex": "0x186d",
+    "old": "c80000",
+    "new": "204e0a",
+    "setting": "panel15 backlight PWM20000Hz/minimum10"
+  },
+  {
+    "offset": 6273,
+    "offset_hex": "0x1881",
+    "old": "ff",
+    "new": "64",
+    "setting": "panel15 backlight level100"
+  },
+  {
+    "offset": 2826,
+    "offset_hex": "0xb0a",
+    "old": "db",
+    "new": "73",
+    "setting": "VBT checksum ->0"
+  },
+  {
+    "offset": 65535,
+    "offset_hex": "0xffff",
+    "old": "00",
+    "new": "2c",
+    "setting": "ROM checksum compensation in final padding byte"
+  }
+]

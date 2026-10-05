@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "id": "intel-bay-trail-vbios-3652-fsp",
+  "kind": "vbios",
+  "platform": "intel/bay-trail",
+  "device": null,
+  "status": "original",
+  "version": "3652 PC 14.34  11/30/2013 02:05:29",
+  "description": "Oryginalny Intel FSP Vga.dat; Valleyview legacy x86, build 3652 PC 14.34, 2013-11-30. ROM checksum 0, VBT checksum 74 (oryginał).",
+  "path": "firmware/intel/bay-trail/vbios/3652-fsp/Vga.dat",
+  "size": 65536,
+  "sha256": "0f9ce58443d32822c36bed1b3f87da45fb16dd0484292d55c0b75e659c33ca3e",
+  "provenance": [
+    {
+      "local_path": "Devices/Intel_FSP_BayTrail/Vga.dat",
+      "source_url": "https://github.com/intel/FSP/tree/BayTrail/BayTrailFspBinPkg/Vbios",
+      "method": "byte-for-byte copy of pre-existing research artifact; not executed"
+    },
+    {
+      "local_path": "Devices/Intel_FSP_BayTrail/extracted/OptionROM-8086-0f31-1.rom",
+      "method": "identical copy; stored once"
+    }
+  ],
+  "license": {
+    "owner": "Intel",
+    "redistribution": "not established; original notices apply"
+  },
+  "compatibility": {
+    "verified_devices": [],
+    "notes": "Brak potwierdzonej zgodności z Chuwi Vi10; PCI ID nie dowodzi zgodności panelu."
+  },
+  "structure": {
+    "size": 65536,
+    "sha256": "0f9ce58443d32822c36bed1b3f87da45fb16dd0484292d55c0b75e659c33ca3e",
+    "errors": [],
+    "rom": {
+      "header_size": 65536,
+      "pcir_offset": 64,
+      "vendor": "8086",
+      "device": "0f31",
+      "pcir_image_size": 65536,
+      "code_type": 0,
+      "indicator": 128,
+      "checksum_mod256": 0
+    },
+    "vbts": [
+      {
+        "signature": "$VBT VALLEYVIEW     ",
+        "offset": 2784,
+        "version": 100,
+        "header_size": 48,
+        "size": 3441,
+        "checksum_mod256": 74,
+        "bdb_offset": 48,
+        "bdb_version": 155,
+        "bdb_header_size": 22,
+        "bdb_size": 3393,
+        "blocks": [
+          {
+            "id": 254,
+            "offset": 70,
+            "size": 237
+          },
+          {
+            "id": 1,
+            "offset": 310,
+            "size": 5
+          },
+          {
+            "id": 254,
+            "offset": 318,
+            "size": 50
+          },
+          {
+            "id": 2,
+            "offset": 371,
+            "size": 170
+          },
+          {
+            "id": 4,
+            "offset": 544,
+            "size": 28
+          },
+          {
+            "id": 254,
+            "offset": 575,
+            "size": 120
+          },
+          {
+            "id": 6,
+            "offset": 698,
+            "size": 285
+          },
+          {
+            "id": 7,
+            "offset": 986,
+            "size": 7
+          },
+          {
+            "id": 8,
+            "offset": 996,
+            "size": 61
+          },
+          {
+            "id": 10,
+            "offset": 1060,
+            "size": 203
+          },
+          {
+            "id": 12,
+            "offset": 1266,
+            "size": 17
+          },
+          {
+            "id": 13,
+            "offset": 1286,
+            "size": 3
+          },
+          {
+            "id": 14,
+            "offset": 1292,
+            "size": 5
+          },
+          {
+            "id": 15,
+            "offset": 1300,
+            "size": 92
+          },
+          {
+            "id": 16,
+            "offset": 1395,
+            "size": 132
+          },
+          {
+            "id": 17,
+            "offset": 1530,
+            "size": 8
+          },
+          {
+            "id": 18,
+            "offset": 1541,
+            "size": 12
+          },
+          {
+            "id": 19,
+            "offset": 1556,
+            "size": 32
+          },
+          {
+            "id": 20,
+            "offset": 1591,
+            "size": 158
+          },
+          {
+            "id": 27,
+            "offset": 1752,
+            "size": 200
+          },
+          {
+            "id": 40,
+            "offset": 1955,
+            "size": 24
+          },
+          {
+            "id": 41,
+            "offset": 1982,
+            "size": 145
+          },
+          {
+            "id": 42,
+            "offset": 2130,
+            "size": 1184
+          },
+          {
+            "id": 43,
+            "offset": 3317,
+            "size": 97
+          },
+          {
+            "id": 44,
+            "offset": 3417,
+            "size": 21
+          }
+        ]
+      }
+    ]
+  },
+  "sidecars": [
+    {
+      "path": "firmware/intel/bay-trail/vbios/3652-fsp/Vga.bsf",
+      "size": 468463,
+      "sha256": "0fd9db0260a7c22ecbf7ebe88b5fe69d19921907d776eab116ac5a2ee912c50f"
+    },
+    {
+      "path": "firmware/intel/bay-trail/vbios/3652-fsp/VBT-decoded.txt",
+      "size": 8028,
+      "sha256": "9b0b2e77ff0cc09a450dc40d79a0b6ee68f25bf9cde5a8711545befe6ef42001"
+    },
+    {
+      "path": "firmware/intel/bay-trail/vbios/3652-fsp/original-scan-results.json",
+      "size": 7126,
+      "sha256": "af4f19218674b187b264811ab7751fba92fb90d5879dea60a677fe74ad9c46e3"
+    }
+  ]
+}

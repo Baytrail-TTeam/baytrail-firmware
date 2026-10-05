@@ -1,0 +1,111 @@
+{
+  "candidate_sha256": "109977f274b9f6bf8f07f8fde214fe72507a70e73491f4496aaddf606787bd94",
+  "original_sha256": "eb5f6f90fb83598b5309a67425997e958ea655b7162b2730d60a99ac0fcc2a08",
+  "changes": [
+    {
+      "offset": 4698,
+      "offset_hex": "0x125a",
+      "old": "02",
+      "new": "00",
+      "setting": "BDB40 selected panel ->0"
+    },
+    {
+      "offset": 4700,
+      "offset_hex": "0x125c",
+      "old": "73",
+      "new": "33",
+      "setting": "BDB40 fitting, dithering, EDID capability"
+    },
+    {
+      "offset": 4358,
+      "offset_hex": "0x1106",
+      "old": "d0070a00d007f4018813",
+      "new": "d007f401f401a00f581b",
+      "setting": "panel0 eDP T3/T7/T9/T10/T12"
+    },
+    {
+      "offset": 4522,
+      "offset_hex": "0x11aa",
+      "old": "0000",
+      "new": "3100",
+      "setting": "panel0 fast-link rate/lanes/preemphasis/vswing"
+    },
+    {
+      "offset": 4562,
+      "offset_hex": "0x11d2",
+      "old": "1111111111111111",
+      "new": "1011111111111111",
+      "setting": "panel0 eDP vswing/preemphasis table"
+    },
+    {
+      "offset": 4570,
+      "offset_hex": "0x11da",
+      "old": "0000",
+      "new": "0100",
+      "setting": "panel0 eDP fast-link training"
+    },
+    {
+      "offset": 4574,
+      "offset_hex": "0x11de",
+      "old": "00000000",
+      "new": "0a000a00",
+      "setting": "panel0 eDP PWM-on/backlight-off delays"
+    },
+    {
+      "offset": 4714,
+      "offset_hex": "0x126a",
+      "old": "00000000",
+      "new": "02000000",
+      "setting": "panel0 BDB40 DRRS mode"
+    },
+    {
+      "offset": 4876,
+      "offset_hex": "0x130c",
+      "old": "8002e001",
+      "new": "56050003",
+      "setting": "panel0 FP dimensions; native register bytes preserved"
+    },
+    {
+      "offset": 4914,
+      "offset_hex": "0x1332",
+      "old": "d60980a020f01d010860220000000000001e",
+      "new": "861e5602510022305656e401eb840000001e",
+      "setting": "panel0 DTD: active Linux timing, 1366x768 78.14MHz"
+    },
+    {
+      "offset": 5932,
+      "offset_hex": "0x172c",
+      "old": "4c46505f50616e656c4e616d65",
+      "new": "4c544c313036414c3031000000",
+      "setting": "panel0 name LTL106AL01"
+    },
+    {
+      "offset": 6163,
+      "offset_hex": "0x1813",
+      "old": "c80000",
+      "new": "204e0a",
+      "setting": "panel0 backlight PWM20000Hz/minimum10"
+    },
+    {
+      "offset": 6258,
+      "offset_hex": "0x1872",
+      "old": "ff",
+      "new": "64",
+      "setting": "panel0 backlight level100"
+    },
+    {
+      "offset": 2826,
+      "offset_hex": "0xb0a",
+      "old": "db",
+      "new": "58",
+      "setting": "VBT checksum ->0"
+    },
+    {
+      "offset": 65535,
+      "offset_hex": "0xffff",
+      "old": "00",
+      "new": "2c",
+      "setting": "ROM checksum compensation in final padding byte"
+    }
+  ]
+}

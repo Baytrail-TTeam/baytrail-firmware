@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "id": "pipo-x9s-vbt-1",
+  "kind": "vbt",
+  "platform": "intel/cherry-trail",
+  "device": "pipo/x9s",
+  "status": "original",
+  "version": null,
+  "description": "VBT z firmware producenta; legacy VBIOS nie wykryto podczas poprzedniego skanu. To nie dowodzi bezwzględnego braku VBIOS.",
+  "path": "firmware/devices/pipo/x9s/vbt/VBT-1.bin",
+  "size": 6112,
+  "sha256": "0297f68b4957710846f3f55ea3dc0ec2e6568ee9e724cc5612719b890671e58f",
+  "provenance": [
+    {
+      "local_path": "Devices/PIPO_X9S/extracted/VBT-1.bin",
+      "source_url": null,
+      "method": "byte-for-byte copy of pre-existing research artifact; not executed",
+      "source_image": {
+        "filename": "I21TL_dual_PIPO_ltl089cl02_v009_160816.bin",
+        "sha256": "39db89226aa682ffc0ceb814d455bba48fe32e40bea287acf31cd04e79150337",
+        "size": 8388608,
+        "included": false
+      }
+    },
+    {
+      "local_path": "Devices/PIPO_X9S/extracted/VBT-mipi-declared.bin",
+      "method": "identical copy; stored once"
+    }
+  ],
+  "license": {
+    "owner": "Intel",
+    "redistribution": "not established; original notices apply"
+  },
+  "compatibility": {
+    "verified_devices": [],
+    "notes": "Brak potwierdzonej zgodności z Chuwi Vi10; PCI ID nie dowodzi zgodności panelu."
+  },
+  "structure": {
+    "size": 6112,
+    "sha256": "0297f68b4957710846f3f55ea3dc0ec2e6568ee9e724cc5612719b890671e58f",
+    "errors": [],
+    "vbts": [
+      {
+        "signature": "$VBT CHERRYVIEW     ",
+        "offset": 0,
+        "version": 100,
+        "header_size": 48,
+        "size": 6112,
+        "checksum_mod256": 0,
+        "bdb_offset": 48,
+        "bdb_version": 195,
+        "bdb_header_size": 22,
+        "bdb_size": 6064,
+        "blocks": [
+          {
+            "id": 254,
+            "offset": 70,
+            "size": 234
+          },
+          {
+            "id": 1,
+            "offset": 307,
+            "size": 5
+          },
+          {
+            "id": 253,
+            "offset": 315,
+            "size": 50
+          },
+          {
+            "id": 2,
+            "offset": 368,
+            "size": 153
+          },
+          {
+            "id": 3,
+            "offset": 524,
+            "size": 1
+          },
+          {
+            "id": 4,
+            "offset": 528,
+            "size": 28
+          },
+          {
+            "id": 252,
+            "offset": 559,
+            "size": 120
+          },
+          {
+            "id": 6,
+            "offset": 682,
+            "size": 117
+          },
+          {
+            "id": 7,
+            "offset": 802,
+            "size": 7
+          },
+          {
+            "id": 8,
+            "offset": 812,
+            "size": 61
+          },
+          {
+            "id": 9,
+            "offset": 876,
+            "size": 96
+          },
+          {
+            "id": 10,
+            "offset": 975,
+            "size": 203
+          },
+          {
+            "id": 12,
+            "offset": 1181,
+            "size": 19
+          },
+          {
+            "id": 13,
+            "offset": 1203,
+            "size": 3
+          },
+          {
+            "id": 16,
+            "offset": 1209,
+            "size": 132
+          },
+          {
+            "id": 17,
+            "offset": 1344,
+            "size": 8
+          },
+          {
+            "id": 18,
+            "offset": 1355,
+            "size": 12
+          },
+          {
+            "id": 19,
+            "offset": 1370,
+            "size": 32
+          },
+          {
+            "id": 20,
+            "offset": 1405,
+            "size": 158
+          },
+          {
+            "id": 26,
+            "offset": 1566,
+            "size": 2
+          },
+          {
+            "id": 27,
+            "offset": 1571,
+            "size": 280
+          },
+          {
+            "id": 28,
+            "offset": 1854,
+            "size": 72
+          },
+          {
+            "id": 40,
+            "offset": 1929,
+            "size": 24
+          },
+          {
+            "id": 41,
+            "offset": 1956,
+            "size": 148
+          },
+          {
+            "id": 42,
+            "offset": 2107,
+            "size": 1282
+          },
+          {
+            "id": 43,
+            "offset": 3392,
+            "size": 129
+          },
+          {
+            "id": 44,
+            "offset": 3524,
+            "size": 21
+          },
+          {
+            "id": 46,
+            "offset": 3548,
+            "size": 176
+          },
+          {
+            "id": 51,
+            "offset": 3727,
+            "size": 9
+          },
+          {
+            "id": 52,
+            "offset": 3739,
+            "size": 822
+          },
+          {
+            "id": 53,
+            "offset": 4564,
+            "size": 1545
+          }
+        ]
+      }
+    ]
+  },
+  "sidecars": [
+    {
+      "path": "firmware/devices/pipo/x9s/vbt/VBT-decoded.txt",
+      "size": 20948,
+      "sha256": "994ec5d0a21f5e291de0a48f495529175ddb5ce5309119f7e9d226f934d20db8"
+    },
+    {
+      "path": "firmware/devices/pipo/x9s/vbt/original-scan-results.json",
+      "size": 6047,
+      "sha256": "6034e9723a990024f799a522d67e4dfc9531037079aed390041efd8db17d83aa"
+    }
+  ]
+}

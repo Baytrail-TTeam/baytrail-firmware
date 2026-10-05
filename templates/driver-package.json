@@ -1,0 +1,11 @@
+{
+  "os": null,
+  "architecture": null,
+  "package_version": null,
+  "publisher": null,
+  "hardware_ids": [],
+  "source_url": null,
+  "signature_status": "not verified",
+  "file_manifest": [],
+  "notes": "Supplemental driver metadata for a kind=driver catalog entry; do not execute installers during import."
+}

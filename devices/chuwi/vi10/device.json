@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "id": "chuwi/vi10",
+  "platform": "intel/bay-trail",
+  "board_revision": null,
+  "role": "planned-target",
+  "notes": "Platforma Chuwi deklarowana jako cel projektu; dokładny wariant do identyfikacji."
+}

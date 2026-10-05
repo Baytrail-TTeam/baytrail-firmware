@@ -1,0 +1,177 @@
+{
+  "file": "VBIOS-Intel-8086-0f31.rom",
+  "size": 65536,
+  "sha256": "eb5f6f90fb83598b5309a67425997e958ea655b7162b2730d60a99ac0fcc2a08",
+  "errors": [],
+  "rom": {
+    "header_size": 65536,
+    "pcir_offset": 64,
+    "vendor": "8086",
+    "device": "0f31",
+    "pcir_image_size": 65536,
+    "code_type": 0,
+    "indicator": 128,
+    "checksum_mod256": 0
+  },
+  "vbts": [
+    {
+      "signature": "$VBT VALLEYVIEW     ",
+      "offset": 2800,
+      "version": 100,
+      "header_size": 48,
+      "size": 3689,
+      "checksum_mod256": 44,
+      "bdb_offset": 48,
+      "bdb_version": 189,
+      "bdb_header_size": 22,
+      "bdb_size": 3641,
+      "blocks": [
+        {
+          "id": 254,
+          "offset": 70,
+          "size": 234
+        },
+        {
+          "id": 1,
+          "offset": 307,
+          "size": 5
+        },
+        {
+          "id": 253,
+          "offset": 315,
+          "size": 50
+        },
+        {
+          "id": 2,
+          "offset": 368,
+          "size": 137
+        },
+        {
+          "id": 3,
+          "offset": 508,
+          "size": 1
+        },
+        {
+          "id": 4,
+          "offset": 512,
+          "size": 28
+        },
+        {
+          "id": 252,
+          "offset": 543,
+          "size": 120
+        },
+        {
+          "id": 6,
+          "offset": 666,
+          "size": 117
+        },
+        {
+          "id": 7,
+          "offset": 786,
+          "size": 7
+        },
+        {
+          "id": 8,
+          "offset": 796,
+          "size": 61
+        },
+        {
+          "id": 9,
+          "offset": 860,
+          "size": 96
+        },
+        {
+          "id": 10,
+          "offset": 959,
+          "size": 203
+        },
+        {
+          "id": 12,
+          "offset": 1165,
+          "size": 19
+        },
+        {
+          "id": 13,
+          "offset": 1187,
+          "size": 3
+        },
+        {
+          "id": 16,
+          "offset": 1193,
+          "size": 132
+        },
+        {
+          "id": 17,
+          "offset": 1328,
+          "size": 8
+        },
+        {
+          "id": 18,
+          "offset": 1339,
+          "size": 12
+        },
+        {
+          "id": 19,
+          "offset": 1354,
+          "size": 32
+        },
+        {
+          "id": 20,
+          "offset": 1389,
+          "size": 158
+        },
+        {
+          "id": 26,
+          "offset": 1550,
+          "size": 2
+        },
+        {
+          "id": 27,
+          "offset": 1555,
+          "size": 280
+        },
+        {
+          "id": 28,
+          "offset": 1838,
+          "size": 54
+        },
+        {
+          "id": 40,
+          "offset": 1895,
+          "size": 24
+        },
+        {
+          "id": 41,
+          "offset": 1922,
+          "size": 148
+        },
+        {
+          "id": 42,
+          "offset": 2073,
+          "size": 1282
+        },
+        {
+          "id": 43,
+          "offset": 3358,
+          "size": 113
+        },
+        {
+          "id": 44,
+          "offset": 3474,
+          "size": 21
+        },
+        {
+          "id": 46,
+          "offset": 3498,
+          "size": 176
+        },
+        {
+          "id": 51,
+          "offset": 3677,
+          "size": 9
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "id": "hpc7scp4-vbt-2",
+  "kind": "vbt",
+  "platform": "intel/bay-trail",
+  "device": "unknown/hpc7scp4",
+  "status": "original",
+  "version": null,
+  "description": "Wyodrębniony VBT z HPC7SCP4; konkretne źródła i offsety w original-scan-results.json.",
+  "path": "firmware/devices/unknown/hpc7scp4/vbt/VBT-2.bin",
+  "size": 4695,
+  "sha256": "bc3fd93ca46432af5feecde70103111cedfac91b117a3d27c171a1ea34ac9733",
+  "provenance": [
+    {
+      "local_path": "Devices/HPC7SCP4/extracted/VBT-2.bin",
+      "source_url": null,
+      "method": "byte-for-byte copy of pre-existing research artifact; not executed",
+      "source_image": {
+        "filename": "HPC7SCP4.ROM",
+        "sha256": "ac5ae6790ca005210f82f84285c844f358a8732b721ef74074878ad4018de9c1",
+        "size": 8388608,
+        "included": false
+      }
+    }
+  ],
+  "license": {
+    "owner": "Intel",
+    "redistribution": "not established; original notices apply"
+  },
+  "compatibility": {
+    "verified_devices": [],
+    "notes": "Brak potwierdzonej zgodności z Chuwi Vi10; PCI ID nie dowodzi zgodności panelu."
+  },
+  "structure": {
+    "size": 4695,
+    "sha256": "bc3fd93ca46432af5feecde70103111cedfac91b117a3d27c171a1ea34ac9733",
+    "errors": [],
+    "vbts": [
+      {
+        "signature": "$VBT VALLEYVIEW    \u0000",
+        "offset": 0,
+        "version": 100,
+        "header_size": 48,
+        "size": 4695,
+        "checksum_mod256": 0,
+        "bdb_offset": 48,
+        "bdb_version": 188,
+        "bdb_header_size": 22,
+        "bdb_size": 4647,
+        "blocks": [
+          {
+            "id": 1,
+            "offset": 70,
+            "size": 5
+          },
+          {
+            "id": 253,
+            "offset": 78,
+            "size": 50
+          },
+          {
+            "id": 2,
+            "offset": 131,
+            "size": 137
+          },
+          {
+            "id": 3,
+            "offset": 271,
+            "size": 1
+          },
+          {
+            "id": 9,
+            "offset": 275,
+            "size": 96
+          },
+          {
+            "id": 10,
+            "offset": 374,
+            "size": 203
+          },
+          {
+            "id": 12,
+            "offset": 580,
+            "size": 19
+          },
+          {
+            "id": 13,
+            "offset": 602,
+            "size": 3
+          },
+          {
+            "id": 16,
+            "offset": 608,
+            "size": 132
+          },
+          {
+            "id": 17,
+            "offset": 743,
+            "size": 8
+          },
+          {
+            "id": 18,
+            "offset": 754,
+            "size": 12
+          },
+          {
+            "id": 19,
+            "offset": 769,
+            "size": 32
+          },
+          {
+            "id": 20,
+            "offset": 804,
+            "size": 158
+          },
+          {
+            "id": 26,
+            "offset": 965,
+            "size": 2
+          },
+          {
+            "id": 27,
+            "offset": 970,
+            "size": 280
+          },
+          {
+            "id": 28,
+            "offset": 1253,
+            "size": 54
+          },
+          {
+            "id": 40,
+            "offset": 1310,
+            "size": 24
+          },
+          {
+            "id": 41,
+            "offset": 1337,
+            "size": 148
+          },
+          {
+            "id": 42,
+            "offset": 1488,
+            "size": 1282
+          },
+          {
+            "id": 43,
+            "offset": 2773,
+            "size": 113
+          },
+          {
+            "id": 44,
+            "offset": 2889,
+            "size": 21
+          },
+          {
+            "id": 46,
+            "offset": 2913,
+            "size": 176
+          },
+          {
+            "id": 51,
+            "offset": 3092,
+            "size": 9
+          },
+          {
+            "id": 52,
+            "offset": 3104,
+            "size": 816
+          },
+          {
+            "id": 54,
+            "offset": 3923,
+            "size": 769
+          }
+        ]
+      }
+    ]
+  },
+  "sidecars": []
+}

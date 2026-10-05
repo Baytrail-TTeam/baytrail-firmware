@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "id": "hpc7scp4-intel-vbios-1024",
+  "kind": "vbios",
+  "platform": "intel/bay-trail",
+  "device": "unknown/hpc7scp4",
+  "status": "original",
+  "version": "1024 PC 14.34  02/05/2015 03:30:25",
+  "description": "Wyodrębniony oryginalny Intel VLV Mobile/Desktop build 1024 PC14.34, 2015-02-05; PCI8086:0f31, BDB189. Producent urządzenia i URL wejściowego ROM-u nieustalone.",
+  "path": "firmware/devices/unknown/hpc7scp4/vbios/1024/VBIOS-Intel-8086-0f31.rom",
+  "size": 65536,
+  "sha256": "eb5f6f90fb83598b5309a67425997e958ea655b7162b2730d60a99ac0fcc2a08",
+  "provenance": [
+    {
+      "local_path": "Devices/HPC7SCP4/VBIOS-Intel-8086-0f31.rom",
+      "source_url": null,
+      "method": "byte-for-byte copy of pre-existing research artifact; not executed",
+      "source_image": {
+        "filename": "HPC7SCP4.ROM",
+        "sha256": "ac5ae6790ca005210f82f84285c844f358a8732b721ef74074878ad4018de9c1",
+        "size": 8388608,
+        "included": false
+      }
+    },
+    {
+      "local_path": "Devices/HPC7SCP4/extracted-optionrom-8086-0f31-type0-2.rom",
+      "method": "identical copy; stored once"
+    },
+    {
+      "local_path": "Devices/HPC7SCP4/extracted/OptionROM-8086-0f31-2.rom",
+      "method": "identical copy; stored once"
+    }
+  ],
+  "license": {
+    "owner": "Intel",
+    "redistribution": "not established; original notices apply"
+  },
+  "compatibility": {
+    "verified_devices": [],
+    "notes": "Brak potwierdzonej zgodności z Chuwi Vi10; PCI ID nie dowodzi zgodności panelu."
+  },
+  "structure": {
+    "size": 65536,
+    "sha256": "eb5f6f90fb83598b5309a67425997e958ea655b7162b2730d60a99ac0fcc2a08",
+    "errors": [],
+    "rom": {
+      "header_size": 65536,
+      "pcir_offset": 64,
+      "vendor": "8086",
+      "device": "0f31",
+      "pcir_image_size": 65536,
+      "code_type": 0,
+      "indicator": 128,
+      "checksum_mod256": 0
+    },
+    "vbts": [
+      {
+        "signature": "$VBT VALLEYVIEW     ",
+        "offset": 2800,
+        "version": 100,
+        "header_size": 48,
+        "size": 3689,
+        "checksum_mod256": 44,
+        "bdb_offset": 48,
+        "bdb_version": 189,
+        "bdb_header_size": 22,
+        "bdb_size": 3641,
+        "blocks": [
+          {
+            "id": 254,
+            "offset": 70,
+            "size": 234
+          },
+          {
+            "id": 1,
+            "offset": 307,
+            "size": 5
+          },
+          {
+            "id": 253,
+            "offset": 315,
+            "size": 50
+          },
+          {
+            "id": 2,
+            "offset": 368,
+            "size": 137
+          },
+          {
+            "id": 3,
+            "offset": 508,
+            "size": 1
+          },
+          {
+            "id": 4,
+            "offset": 512,
+            "size": 28
+          },
+          {
+            "id": 252,
+            "offset": 543,
+            "size": 120
+          },
+          {
+            "id": 6,
+            "offset": 666,
+            "size": 117
+          },
+          {
+            "id": 7,
+            "offset": 786,
+            "size": 7
+          },
+          {
+            "id": 8,
+            "offset": 796,
+            "size": 61
+          },
+          {
+            "id": 9,
+            "offset": 860,
+            "size": 96
+          },
+          {
+            "id": 10,
+            "offset": 959,
+            "size": 203
+          },
+          {
+            "id": 12,
+            "offset": 1165,
+            "size": 19
+          },
+          {
+            "id": 13,
+            "offset": 1187,
+            "size": 3
+          },
+          {
+            "id": 16,
+            "offset": 1193,
+            "size": 132
+          },
+          {
+            "id": 17,
+            "offset": 1328,
+            "size": 8
+          },
+          {
+            "id": 18,
+            "offset": 1339,
+            "size": 12
+          },
+          {
+            "id": 19,
+            "offset": 1354,
+            "size": 32
+          },
+          {
+            "id": 20,
+            "offset": 1389,
+            "size": 158
+          },
+          {
+            "id": 26,
+            "offset": 1550,
+            "size": 2
+          },
+          {
+            "id": 27,
+            "offset": 1555,
+            "size": 280
+          },
+          {
+            "id": 28,
+            "offset": 1838,
+            "size": 54
+          },
+          {
+            "id": 40,
+            "offset": 1895,
+            "size": 24
+          },
+          {
+            "id": 41,
+            "offset": 1922,
+            "size": 148
+          },
+          {
+            "id": 42,
+            "offset": 2073,
+            "size": 1282
+          },
+          {
+            "id": 43,
+            "offset": 3358,
+            "size": 113
+          },
+          {
+            "id": 44,
+            "offset": 3474,
+            "size": 21
+          },
+          {
+            "id": 46,
+            "offset": 3498,
+            "size": 176
+          },
+          {
+            "id": 51,
+            "offset": 3677,
+            "size": 9
+          }
+        ]
+      }
+    ]
+  },
+  "sidecars": [
+    {
+      "path": "firmware/devices/unknown/hpc7scp4/vbios/1024/VBT-decoded.txt",
+      "size": 8913,
+      "sha256": "66c528abdb0b4cb27a205518f9d8025a288cab790f759989c44820dfa7110b7b"
+    },
+    {
+      "path": "firmware/devices/unknown/hpc7scp4/vbios/1024/original-validation.json",
+      "size": 3219,
+      "sha256": "50249cc9ce34f9be648d80ae871c9adf9a3b36a97b91800d0558a4c83dc8abe4"
+    },
+    {
+      "path": "firmware/devices/unknown/hpc7scp4/vbios/1024/original-scan-results.json",
+      "size": 18131,
+      "sha256": "e151c3929a1e90b151eedd640323f6c13bd78cd714d95254d650c900b0cf580d"
+    }
+  ]
+}

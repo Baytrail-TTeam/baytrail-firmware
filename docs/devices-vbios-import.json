@@ -1,0 +1,41 @@
+{
+  "import_date": "2026-10-05",
+  "scope": "Every Intel8086:0f31 legacy Option ROM outside .dump trees in Devices; identical copies deduplicated",
+  "files": [
+    {
+      "source_path": "Devices/HPC7SCP4/VBIOS-Intel-8086-0f31.rom",
+      "sha256": "eb5f6f90fb83598b5309a67425997e958ea655b7162b2730d60a99ac0fcc2a08",
+      "entry_id": "hpc7scp4-intel-vbios-1024"
+    },
+    {
+      "source_path": "Devices/HPC7SCP4/extracted/OptionROM-8086-0f31-2.rom",
+      "sha256": "eb5f6f90fb83598b5309a67425997e958ea655b7162b2730d60a99ac0fcc2a08",
+      "entry_id": "hpc7scp4-intel-vbios-1024"
+    },
+    {
+      "source_path": "Devices/HPC7SCP4/extracted-optionrom-8086-0f31-type0-2.rom",
+      "sha256": "eb5f6f90fb83598b5309a67425997e958ea655b7162b2730d60a99ac0fcc2a08",
+      "entry_id": "hpc7scp4-intel-vbios-1024"
+    },
+    {
+      "source_path": "Devices/HPC7SCP4/transplant/VBIOS-HPC7SCP4-S165-all-panels.rom",
+      "sha256": "548c688257c4b23ba89fe7e6e1aa14d4043242cffabb46a4ca29bdc55840fa0d",
+      "entry_id": "s165-hpc7scp4-vbios-all-panels"
+    },
+    {
+      "source_path": "Devices/HPC7SCP4/transplant/VBIOS-HPC7SCP4-S165-panel0.rom",
+      "sha256": "109977f274b9f6bf8f07f8fde214fe72507a70e73491f4496aaddf606787bd94",
+      "entry_id": "s165-hpc7scp4-vbios-panel0"
+    },
+    {
+      "source_path": "Devices/Intel_FSP_BayTrail/Vga.dat",
+      "sha256": "0f9ce58443d32822c36bed1b3f87da45fb16dd0484292d55c0b75e659c33ca3e",
+      "entry_id": "intel-bay-trail-vbios-3652-fsp"
+    },
+    {
+      "source_path": "Devices/Intel_FSP_BayTrail/extracted/OptionROM-8086-0f31-1.rom",
+      "sha256": "0f9ce58443d32822c36bed1b3f87da45fb16dd0484292d55c0b75e659c33ca3e",
+      "entry_id": "intel-bay-trail-vbios-3652-fsp"
+    }
+  ]
+}
